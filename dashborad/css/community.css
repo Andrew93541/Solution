@@ -1,0 +1,154 @@
+.community-hero {
+    display: flex;
+    padding: 8rem 4rem 4rem;
+    background: #fff;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 4rem;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.discover-more {
+    background: #e0e0e0;
+    color: #000;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.hero-image {
+    flex: 1;
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.community-spotlight {
+    padding: 4rem;
+    background: #f5f5f5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.spotlight-main h2 {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.spotlight-content {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.spotlight-content img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.read-time {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+}
+
+.join-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: #e0e0e0;
+    color: #000;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.spotlight-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.article-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    height: 180px;
+}
+
+.article-card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.article-info {
+    padding: 1.5rem;
+    flex: 1;
+    position: relative;
+}
+
+.article-info h3 {
+    color: #000;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.source-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: #e0e0e0;
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.article-meta {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

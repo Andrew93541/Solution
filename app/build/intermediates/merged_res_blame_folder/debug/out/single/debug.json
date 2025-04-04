@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-merged_res-71:\\mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-main-73:\\mipmap-mdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-merged_res-71:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-main-73:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.ecohub.app-merged_res-71:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.ecohub.app-main-73:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-merged_res-71:\\mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-main-73:\\mipmap-mdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.ecohub.app-merged_res-71:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.ecohub.app-main-73:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-merged_res-71:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\prite\\.gradle\\daemon\\8.10\\com.ecohub.app-main-73:\\xml\\data_extraction_rules.xml"
+    }
+]

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/waste-management.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="water-management.html">Water Management</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search waste management resources...">
+            </div>
+            <button class="search-icon" title="Search waste management resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="waste-management-page">
+        <section class="waste-hero">
+            <h1>Waste Management</h1>
+            <p>Optimize waste handling and promote sustainable disposal practices</p>
+        </section>
+
+        <section class="waste-content">
+            <div class="waste-tracking">
+                <h2>Waste Tracking</h2>
+                <div class="tracking-grid">
+                    <div class="waste-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-trash"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Total Waste</h3>
+                                <div class="stat-value">1,250</div>
+                                <div class="stat-unit">tons/month</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-recycle"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Recycling Rate</h3>
+                                <div class="stat-value">65%</div>
+                                <div class="stat-label">of total waste</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Composting</h3>
+                                <div class="stat-value">20%</div>
+                                <div class="stat-label">of organic waste</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="waste-chart">
+                        <h3>Waste Composition</h3>
+                        <div class="chart-container">
+                            <canvas id="wasteCompositionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="waste-optimization">
+                <h2>Waste Optimization</h2>
+                <div class="optimization-grid">
+                    <div class="recycling-optimization">
+                        <h3>Recycling Optimization</h3>
+                        <div class="optimization-list">
+                            <div class="optimization-item">
+                                <div class="optimization-icon">
+                                    <i class="fas fa-sort"></i>
+                                </div>
+                                <div class="optimization-content">
+                                    <h4>Smart Sorting</h4>
+                                    <p>AI-powered waste sorting system</p>
+                                    <div class="efficiency">
+                                        <span>Efficiency Rate:</span>
+                                        <span class="rate">95%</span>
+                                    </div>
+                                </div>
+                                <button class="optimize-btn" title="Optimize sorting">Optimize</button>
+                            </div>
+                            <div class="optimization-item">
+                                <div class="optimization-icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="optimization-content">
+                                    <h4>Collection Routes</h4>
+                                    <p>Optimized collection schedules</p>
+                                    <div class="efficiency">
+                                        <span>Efficiency Rate:</span>
+                                        <span class="rate">85%</span>
+                                    </div>
+                                </div>
+                                <button class="optimize-btn" title="Optimize routes">Optimize</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="waste-reduction">
+                        <h3>Waste Reduction Strategies</h3>
+                        <div class="strategy-list">
+                            <div class="strategy-card">
+                                <div class="strategy-icon">
+                                    <i class="fas fa-shopping-bag"></i>
+                                </div>
+                                <div class="strategy-content">
+                                    <h4>Zero Waste Shopping</h4>
+                                    <p>Promote bulk shopping and reusable containers</p>
+                                    <div class="impact">
+                                        <span>Potential Reduction:</span>
+                                        <span class="amount">30%</span>
+                                    </div>
+                                </div>
+                                <button class="implement-btn" title="Implement strategy">Implement</button>
+                            </div>
+                            <div class="strategy-card">
+                                <div class="strategy-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="strategy-content">
+                                    <h4>Food Waste Reduction</h4>
+                                    <p>Smart meal planning and composting</p>
+                                    <div class="impact">
+                                        <span>Potential Reduction:</span>
+                                        <span class="amount">40%</span>
+                                    </div>
+                                </div>
+                                <button class="implement-btn" title="Implement strategy">Implement</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="composting-program">
+                <h2>Composting Program</h2>
+                <div class="composting-grid">
+                    <div class="compost-locations">
+                        <h3>Composting Locations</h3>
+                        <div id="compostMap"></div>
+                        <div class="location-filters">
+                            <div class="filter-group">
+                                <label>Facility Type:</label>
+                                <select title="Select facility type">
+                                    <option value="all">All Facilities</option>
+                                    <option value="drop-off">Drop-off Centers</option>
+                                    <option value="curbside">Curbside Collection</option>
+                                    <option value="community">Community Gardens</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="compost-guide">
+                        <h3>Composting Guide</h3>
+                        <div class="guide-content">
+                            <div class="guide-section">
+                                <h4>What to Compost</h4>
+                                <ul class="compost-list">
+                                    <li><i class="fas fa-check"></i> Food scraps</li>
+                                    <li><i class="fas fa-check"></i> Yard waste</li>
+                                    <li><i class="fas fa-check"></i> Paper products</li>
+                                </ul>
+                            </div>
+                            <div class="guide-section">
+                                <h4>What Not to Compost</h4>
+                                <ul class="compost-list">
+                                    <li><i class="fas fa-times"></i> Plastic</li>
+                                    <li><i class="fas fa-times"></i> Metal</li>
+                                    <li><i class="fas fa-times"></i> Glass</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="waste-reports">
+                <h2>Waste Reports</h2>
+                <div class="reports-grid">
+                    <div class="report-card">
+                        <div class="report-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="report-content">
+                            <h3>Monthly Report</h3>
+                            <p>March 2024 Waste Management Summary</p>
+                            <div class="report-stats">
+                                <div class="stat">
+                                    <span class="label">Total Waste</span>
+                                    <span class="value">1,250 tons</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="label">Recycling Rate</span>
+                                    <span class="value">65%</span>
+                                </div>
+                            </div>
+                            <button class="download-btn" title="Download report">Download Report</button>
+                        </div>
+                    </div>
+
+                    <div class="report-card">
+                        <div class="report-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="report-content">
+                            <h3>Annual Report</h3>
+                            <p>2023 Waste Management Overview</p>
+                            <div class="report-stats">
+                                <div class="stat">
+                                    <span class="label">Total Waste</span>
+                                    <span class="value">15,000 tons</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="label">Recycling Rate</span>
+                                    <span class="value">62%</span>
+                                </div>
+                            </div>
+                            <button class="download-btn" title="Download report">Download Report</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/waste-management.js"></script>
+</body>
+</html> 

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ecohub.app-mergeDebugResources-69:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prite\\.gradle\\caches\\8.10\\transforms\\0a16e38edd26ef24ef8bdab0de5a9e8b\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prite\\.gradle\\caches\\8.10\\transforms\\a2d7a26a5829d0450623a3749d30b767\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

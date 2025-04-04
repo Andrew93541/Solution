@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="achievements">Achievements</string>
+    <string name="app_name">EcoHub</string>
+    <string name="calculate_carbon">Calculate Carbon Footprint</string>
+    <string name="car_miles">Car miles per week</string>
+    <string name="carbon_calculator">Carbon Calculator</string>
+    <string name="community">Community</string>
+    <string name="community_highlights">Community Highlights</string>
+    <string name="daily_challenges">Daily Challenges</string>
+    <string name="daily_tip_content">Did you know? Using LED bulbs can save up to 80% more energy than traditional incandescent bulbs.</string>
+    <string name="daily_tip_title">Daily Sustainability Tip</string>
+    <string name="electricity">Monthly electricity usage (kWh)</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="gas">Monthly gas usage (therms)</string>
+    <string name="gcm_defaultSenderId" translatable="false">302800274183</string>
+    <string name="google_api_key" translatable="false">AIzaSyAW4dNTiq0eGUkHz6wwTe37bwlKyetsv8A</string>
+    <string name="google_app_id" translatable="false">1:302800274183:android:5fd2cb9c093334decdbba2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAW4dNTiq0eGUkHz6wwTe37bwlKyetsv8A</string>
+    <string name="google_storage_bucket" translatable="false">ecohub-7c6d4.firebasestorage.app</string>
+    <string name="green_tips">Green Tips</string>
+    <string name="home_energy">Home Energy</string>
+    <string name="join_community">Join Our Community</string>
+    <string name="login">Login</string>
+    <string name="monthly_challenges">Monthly Challenges</string>
+    <string name="my_profile">My Profile</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_challenges">Challenges</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="no">No</string>
+    <string name="participate_events">Participate in Events</string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">ecohub-7c6d4</string>
+    <string name="public_transport">Public transport hours per week</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recycle_question">Do you recycle?</string>
+    <string name="settings">Settings</string>
+    <string name="share_tips">Share Sustainability Tips</string>
+    <string name="signup">Sign Up</string>
+    <string name="sustainability_score">Sustainability Score</string>
+    <string name="transportation">Transportation</string>
+    <string name="trash_bags">Bags of trash per week</string>
+    <string name="waste">Waste</string>
+    <string name="weekly_challenges">Weekly Challenges</string>
+    <string name="welcome_subtitle">Your journey to sustainability starts here</string>
+    <string name="welcome_title">Welcome to EcoHub!</string>
+    <string name="yes">Yes</string>
+    <style name="Theme.EcoHub" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorPrimaryDark">#1B5E20</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+</resources>

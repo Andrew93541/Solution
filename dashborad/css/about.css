@@ -1,0 +1,445 @@
+body {
+    background-color: #C4C4C4;
+    color: #000;
+}
+
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 125px;
+}
+
+/* Update stats container */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: flex-end;
+}
+
+/* Update sections max-width */
+.projects-section,
+.feedback-section,
+.testimonials-section {
+    max-width: 1200px;
+    margin: 4rem auto 0;
+    width: 100%;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.about-description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+    min-width: 200px;
+    text-align: center;
+}
+
+.stat-card h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.stat-card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Override navbar styles for this page */
+.navbar {
+    background-color: transparent;
+}
+
+.nav-links a {
+    color: #000;
+}
+
+.nav-links a.active {
+    color: var(--primary);
+}
+
+.search-icon {
+    color: #000;
+}
+
+.search-input {
+    background: rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Add to your existing about.css */
+
+.feedback-section {
+    margin-top: 6rem;
+    padding: 2rem 0;
+}
+
+.feedback-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.feedback-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feedback-info {
+    padding: 2rem;
+}
+
+.feedback-info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #000;
+}
+
+.feedback-form-container {
+    background: #f5f5f5;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.feedback-form-container h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.feedback-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #e0e0e0;
+    font-size: 1rem;
+}
+
+.feedback-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+    outline: none;
+    background: #d4d4d4;
+}
+
+.submit-btn {
+    background: #c4c4c4;
+    color: #000;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    float: right;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #b0b0b0;
+}
+
+.projects-section {
+    margin-top: 6rem;
+}
+
+.projects-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: #f5f5f5;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card.active {
+    border: 2px solid #2196F3;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 1.5rem;
+}
+
+.project-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.project-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.project-footer {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonials-section {
+    margin-top: 6rem;
+    padding: 2rem 0;
+}
+
+.testimonials-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    background: #f5f5f5;
+    border-radius: 15px;
+    padding: 2rem;
+    position: relative;
+    padding-top: 3rem;
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -40px;
+    left: 2rem;
+}
+
+.testimonial-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+}
+
+.testimonial-content .role {
+    font-size: 0.9rem;
+    color: #666;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.testimonial-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+.about-content h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.about-content h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background-color: #000;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.stats-grid .stat-box:last-child {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.stat-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Add these footer styles to your about.css */
+footer {
+    background: #333;
+    color: white;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 4rem;
+}
+
+.footer-brand {
+    padding: 2rem 0;
+}
+
+.footer-brand h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.follow-us h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-column ul li a:hover {
+    color: #2196F3;
+}

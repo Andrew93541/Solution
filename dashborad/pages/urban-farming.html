@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Farming - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/urban-farming.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platform</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html" class="active">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search urban farming resources...">
+            </div>
+            <button class="search-icon" title="Search urban farming resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="urban-farming-page">
+        <section class="urban-farming-hero">
+            <h1>Urban Farming Hub</h1>
+            <p>Grow your own food and contribute to sustainable urban agriculture</p>
+        </section>
+
+        <div class="urban-farming-dashboard">
+            <!-- Farm Overview -->
+            <section class="dashboard-section farm-overview">
+                <h2>Farm Overview</h2>
+                <div class="farm-grid">
+                    <div class="farm-card">
+                        <div class="farm-header">
+                            <h3>My Farm</h3>
+                            <div class="farm-stats">
+                                <span class="stat-item">
+                                    <i class="fas fa-seedling"></i>
+                                    <span class="stat-value">12</span>
+                                    <span class="stat-label">Active Crops</span>
+                                </span>
+                                <span class="stat-item">
+                                    <i class="fas fa-leaf"></i>
+                                    <span class="stat-value">85%</span>
+                                    <span class="stat-label">Growth Rate</span>
+                                </span>
+                                <span class="stat-item">
+                                    <i class="fas fa-tint"></i>
+                                    <span class="stat-value">65%</span>
+                                    <span class="stat-label">Water Efficiency</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="farm-map">
+                            <div id="farmMap" class="map-container"></div>
+                        </div>
+                    </div>
+                    <div class="farm-card">
+                        <h3>Weather Conditions</h3>
+                        <div class="weather-info">
+                            <div class="current-weather">
+                                <i class="fas fa-sun"></i>
+                                <div class="weather-details">
+                                    <span class="temperature">24°C</span>
+                                    <span class="condition">Sunny</span>
+                                </div>
+                            </div>
+                            <div class="weather-forecast">
+                                <div class="forecast-item">
+                                    <span class="day">Mon</span>
+                                    <i class="fas fa-sun"></i>
+                                    <span class="temp">22°C</span>
+                                </div>
+                                <div class="forecast-item">
+                                    <span class="day">Tue</span>
+                                    <i class="fas fa-cloud-sun"></i>
+                                    <span class="temp">20°C</span>
+                                </div>
+                                <div class="forecast-item">
+                                    <span class="day">Wed</span>
+                                    <i class="fas fa-cloud"></i>
+                                    <span class="temp">18°C</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Crop Management -->
+            <section class="dashboard-section crop-management">
+                <h2>Crop Management</h2>
+                <div class="crop-grid">
+                    <div class="crop-card">
+                        <h3>Crop Growth</h3>
+                        <canvas id="cropGrowthChart"></canvas>
+                    </div>
+                    <div class="crop-card">
+                        <h3>Water Usage</h3>
+                        <canvas id="waterUsageChart"></canvas>
+                    </div>
+                    <div class="crop-card">
+                        <h3>Yield Prediction</h3>
+                        <canvas id="yieldPredictionChart"></canvas>
+                    </div>
+                </div>
+                <div class="crop-list">
+                    <h3>Active Crops</h3>
+                    <div class="crops-grid">
+                        <div class="crop-item">
+                            <div class="crop-image" style="background-image: url('/images/crops/tomatoes.jpg')"></div>
+                            <div class="crop-info">
+                                <h4>Tomatoes</h4>
+                                <div class="crop-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 75%"></div>
+                                    </div>
+                                    <span>75%</span>
+                                </div>
+                                <p>Harvest in 2 weeks</p>
+                            </div>
+                        </div>
+                        <div class="crop-item">
+                            <div class="crop-image" style="background-image: url('/images/crops/lettuce.jpg')"></div>
+                            <div class="crop-info">
+                                <h4>Lettuce</h4>
+                                <div class="crop-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 45%"></div>
+                                    </div>
+                                    <span>45%</span>
+                                </div>
+                                <p>Harvest in 4 weeks</p>
+                            </div>
+                        </div>
+                        <div class="crop-item">
+                            <div class="crop-image" style="background-image: url('/images/crops/herbs.jpg')"></div>
+                            <div class="crop-info">
+                                <h4>Herbs</h4>
+                                <div class="crop-progress">
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 90%"></div>
+                                    </div>
+                                    <span>90%</span>
+                                </div>
+                                <p>Ready for harvest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Community Features -->
+            <section class="dashboard-section community-features">
+                <h2>Community Features</h2>
+                <div class="community-grid">
+                    <div class="community-card">
+                        <h3>Local Farmers Market</h3>
+                        <div class="market-info">
+                            <div class="market-schedule">
+                                <i class="fas fa-calendar"></i>
+                                <span>Every Saturday, 8AM - 2PM</span>
+                            </div>
+                            <div class="market-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Central Park Plaza</span>
+                            </div>
+                            <button class="action-btn">View Market Details</button>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <h3>Workshop Schedule</h3>
+                        <div class="workshop-list">
+                            <div class="workshop-item">
+                                <div class="workshop-date">
+                                    <span class="day">15</span>
+                                    <span class="month">Mar</span>
+                                </div>
+                                <div class="workshop-info">
+                                    <h4>Vertical Gardening Basics</h4>
+                                    <p>Learn how to maximize space in your urban garden</p>
+                                </div>
+                                <button class="action-btn">Register</button>
+                            </div>
+                            <div class="workshop-item">
+                                <div class="workshop-date">
+                                    <span class="day">22</span>
+                                    <span class="month">Mar</span>
+                                </div>
+                                <div class="workshop-info">
+                                    <h4>Composting Workshop</h4>
+                                    <p>Master the art of creating nutrient-rich compost</p>
+                                </div>
+                                <button class="action-btn">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <h3>Community Exchange</h3>
+                        <div class="exchange-list">
+                            <div class="exchange-item">
+                                <div class="exchange-icon">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                                <div class="exchange-info">
+                                    <h4>Seed Exchange</h4>
+                                    <p>Share and receive seeds with local farmers</p>
+                                </div>
+                                <button class="action-btn">Participate</button>
+                            </div>
+                            <div class="exchange-item">
+                                <div class="exchange-icon">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <div class="exchange-info">
+                                    <h4>Tool Sharing</h4>
+                                    <p>Borrow and lend gardening tools</p>
+                                </div>
+                                <button class="action-btn">Participate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resources & Tips -->
+            <section class="dashboard-section resources">
+                <h2>Resources & Tips</h2>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <i class="fas fa-book"></i>
+                        <h3>Growing Guides</h3>
+                        <ul class="resource-list">
+                            <li>Seasonal Planting Calendar</li>
+                            <li>Companion Planting Guide</li>
+                            <li>Pest Management Tips</li>
+                            <li>Water Conservation Methods</li>
+                        </ul>
+                        <button class="action-btn">View Guides</button>
+                    </div>
+                    <div class="resource-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Video Tutorials</h3>
+                        <ul class="resource-list">
+                            <li>Setting Up Your Garden</li>
+                            <li>Seed Starting Basics</li>
+                            <li>Pruning Techniques</li>
+                            <li>Harvesting Methods</li>
+                        </ul>
+                        <button class="action-btn">Watch Videos</button>
+                    </div>
+                    <div class="resource-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Support</h3>
+                        <ul class="resource-list">
+                            <li>Local Expert Network</li>
+                            <li>Discussion Forums</li>
+                            <li>Success Stories</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                        <button class="action-btn">Join Community</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/urban-farming.js"></script>
+</body>
+</html> 

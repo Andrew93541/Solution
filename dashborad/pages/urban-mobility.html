@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Mobility - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/urban-mobility.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html" class="active">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+    </nav>
+
+    <main class="urban-mobility-page">
+        <section class="mobility-hero">
+            <h1>Urban Mobility</h1>
+            <p>Plan your sustainable journey with smart transportation options</p>
+        </section>
+
+        <div class="mobility-dashboard">
+            <!-- Route Planner -->
+            <section class="dashboard-section route-planner">
+                <h2>Route Planner</h2>
+                <div class="route-inputs">
+                    <div class="input-group">
+                        <label for="startLocation">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Start Location
+                        </label>
+                        <input type="text" id="startLocation" placeholder="Enter starting point">
+                        <div class="location-suggestions" id="startSuggestions"></div>
+                    </div>
+                    <div class="input-group">
+                        <label for="endLocation">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Destination
+                        </label>
+                        <input type="text" id="endLocation" placeholder="Enter destination">
+                        <div class="location-suggestions" id="endSuggestions"></div>
+                    </div>
+                    <div class="transport-options">
+                        <button class="transport-btn active" data-mode="all">
+                            <i class="fas fa-route"></i>
+                            All Options
+                        </button>
+                        <button class="transport-btn" data-mode="public">
+                            <i class="fas fa-bus"></i>
+                            Public Transit
+                        </button>
+                        <button class="transport-btn" data-mode="bike">
+                            <i class="fas fa-bicycle"></i>
+                            Cycling
+                        </button>
+                        <button class="transport-btn" data-mode="walk">
+                            <i class="fas fa-walking"></i>
+                            Walking
+                        </button>
+                    </div>
+                    <div class="route-options">
+                        <label class="option-toggle">
+                            <input type="checkbox" id="avoidHighways">
+                            <span>Avoid Highways</span>
+                        </label>
+                        <label class="option-toggle">
+                            <input type="checkbox" id="preferBikeLanes">
+                            <span>Prefer Bike Lanes</span>
+                        </label>
+                        <label class="option-toggle">
+                            <input type="checkbox" id="wheelchairAccessible">
+                            <span>Wheelchair Accessible</span>
+                        </label>
+                    </div>
+                    <button class="plan-route-btn">
+                        <i class="fas fa-search"></i>
+                        Plan Route
+                    </button>
+                </div>
+                <div class="route-map">
+                    <div id="map"></div>
+                    <div class="map-controls">
+                        <button class="map-control-btn" id="zoomIn">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="map-control-btn" id="zoomOut">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button class="map-control-btn" id="resetMap">
+                            <i class="fas fa-sync"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="route-details-panel">
+                    <div class="route-summary">
+                        <h3>Route Summary</h3>
+                        <div class="route-info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Duration: <span id="routeDuration">--</span></span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-route"></i>
+                                <span>Distance: <span id="routeDistance">--</span></span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-leaf"></i>
+                                <span>Carbon Saved: <span id="carbonSaved">--</span></span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-elevation"></i>
+                                <span>Elevation Gain: <span id="elevationGain">--</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="route-steps">
+                        <h3>Turn-by-Turn Directions</h3>
+                        <div id="routeSteps"></div>
+                    </div>
+                    <div class="route-alternatives">
+                        <h3>Alternative Routes</h3>
+                        <div id="alternativeRoutes"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Real-time Transit Updates -->
+            <section class="dashboard-section transit-updates">
+                <h2>Real-time Transit Updates</h2>
+                <div class="transit-grid">
+                    <div class="transit-card">
+                        <div class="transit-header">
+                            <i class="fas fa-bus"></i>
+                            <h3>Bus Lines</h3>
+                        </div>
+                        <div class="transit-content">
+                            <div class="transit-line">
+                                <span class="line-number">101</span>
+                                <span class="line-name">Downtown Express</span>
+                                <span class="line-status on-time">On Time</span>
+                            </div>
+                            <div class="transit-line">
+                                <span class="line-number">202</span>
+                                <span class="line-name">Airport Shuttle</span>
+                                <span class="line-status delayed">5 min delay</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transit-card">
+                        <div class="transit-header">
+                            <i class="fas fa-subway"></i>
+                            <h3>Metro Lines</h3>
+                        </div>
+                        <div class="transit-content">
+                            <div class="transit-line">
+                                <span class="line-number">A</span>
+                                <span class="line-name">North-South Line</span>
+                                <span class="line-status on-time">On Time</span>
+                            </div>
+                            <div class="transit-line">
+                                <span class="line-number">B</span>
+                                <span class="line-name">East-West Line</span>
+                                <span class="line-status on-time">On Time</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transit-card">
+                        <div class="transit-header">
+                            <i class="fas fa-bicycle"></i>
+                            <h3>Bike Share</h3>
+                        </div>
+                        <div class="transit-content">
+                            <div class="bike-station">
+                                <span class="station-name">Central Station</span>
+                                <span class="bike-count">12 bikes available</span>
+                            </div>
+                            <div class="bike-station">
+                                <span class="station-name">Park Station</span>
+                                <span class="bike-count">8 bikes available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trip History -->
+            <section class="dashboard-section trip-history">
+                <h2>Trip History</h2>
+                <div class="trip-filters">
+                    <select id="tripTimeRange">
+                        <option value="week">Last Week</option>
+                        <option value="month">Last Month</option>
+                        <option value="year">Last Year</option>
+                    </select>
+                    <select id="tripTransportMode">
+                        <option value="all">All Modes</option>
+                        <option value="bike">Cycling</option>
+                        <option value="walk">Walking</option>
+                        <option value="transit">Public Transit</option>
+                    </select>
+                </div>
+                <div class="trip-list" id="tripList">
+                    <!-- Trip items will be dynamically added here -->
+                </div>
+                <div class="trip-stats">
+                    <div class="trip-stat-item">
+                        <span class="stat-label">Total Trips</span>
+                        <span class="stat-value" id="totalTrips">0</span>
+                    </div>
+                    <div class="trip-stat-item">
+                        <span class="stat-label">Total Distance</span>
+                        <span class="stat-value" id="totalDistance">0 km</span>
+                    </div>
+                    <div class="trip-stat-item">
+                        <span class="stat-label">Carbon Saved</span>
+                        <span class="stat-value" id="totalCarbonSaved">0 kg</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enhanced Analytics -->
+            <section class="dashboard-section mobility-analytics">
+                <h2>Mobility Analytics</h2>
+                <div class="analytics-filters">
+                    <select id="analyticsTimeRange">
+                        <option value="week">Last Week</option>
+                        <option value="month">Last Month</option>
+                        <option value="year">Last Year</option>
+                    </select>
+                    <select id="analyticsMetric">
+                        <option value="distance">Distance</option>
+                        <option value="carbon">Carbon Impact</option>
+                        <option value="cost">Cost Savings</option>
+                    </select>
+                </div>
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <h3>Weekly Transportation Mix</h3>
+                        <canvas id="transportMixChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Carbon Impact Over Time</h3>
+                        <canvas id="carbonImpactChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Distance Covered by Mode</h3>
+                        <canvas id="distanceChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Cost Savings Analysis</h3>
+                        <canvas id="costSavingsChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Peak Usage Times</h3>
+                        <canvas id="peakUsageChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Weather Impact</h3>
+                        <canvas id="weatherImpactChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mobility Stats -->
+            <section class="dashboard-section mobility-stats">
+                <h2>Your Mobility Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Carbon Saved</h3>
+                            <div class="stat-value">2.4 kg CO2</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>15% this week</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-bicycle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Cycling Distance</h3>
+                            <div class="stat-value">45.2 km</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>8% this week</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-walking"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Walking Distance</h3>
+                            <div class="stat-value">12.8 km</div>
+                            <div class="stat-trend negative">
+                                <i class="fas fa-arrow-down"></i>
+                                <span>5% this week</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Public Transit</h3>
+                            <div class="stat-value">8 trips</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>12% this week</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Nearby Services -->
+            <section class="dashboard-section nearby-services">
+                <h2>Nearby Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bicycle"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Bike Share Station</h3>
+                            <p>0.2 km away</p>
+                            <p>12 bikes available</p>
+                        </div>
+                        <button class="service-action-btn">
+                            <i class="fas fa-directions"></i>
+                            Get Directions
+                        </button>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Bus Stop</h3>
+                            <p>0.3 km away</p>
+                            <p>Next bus in 5 min</p>
+                        </div>
+                        <button class="service-action-btn">
+                            <i class="fas fa-directions"></i>
+                            Get Directions
+                        </button>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-subway"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Metro Station</h3>
+                            <p>0.5 km away</p>
+                            <p>Next train in 8 min</p>
+                        </div>
+                        <button class="service-action-btn">
+                            <i class="fas fa-directions"></i>
+                            Get Directions
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/urban-mobility.js"></script>
+</body>
+</html> 

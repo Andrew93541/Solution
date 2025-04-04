@@ -1,0 +1,234 @@
+:root {
+    --primary: #2E7D32;
+    --secondary: #1b5e20;
+    --text: #333;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    width: 100%;
+    padding: 2rem;
+}
+
+.login-box {
+    max-width: 400px;  /* Reduced from 450px */
+    margin: 0 auto;
+    padding: 1.8rem;   /* Reduced from 2.5rem */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    animation: slideUp 0.8s ease;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo {
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1.5rem;  /* Reduced from 2rem */
+}
+
+.logo i {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.welcome-text {
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 1.5rem;  /* Reduced from 2rem */
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.5rem;  /* Reduced from 2rem */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.input-group i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white);
+}
+
+.input-group label {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white);
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label {
+    top: -10px;
+    left: 12px;
+    font-size: 0.8rem;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: 0.3s;
+}
+
+.input-group input:focus ~ .line {
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;  /* Reduced from 2rem */
+    color: var(--white);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: var(--secondary);
+    transform: translateY(-2px);
+}
+
+.social-login {
+    margin-top: 1.5rem;  /* Reduced from 2rem */
+    text-align: center;
+    color: var(--white);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1.5rem;  /* Reduced from 2rem */
+    color: var(--white);
+}
+
+.signup-link a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 50px;  /* Reduced from 60px */
+    margin-bottom: 0.8rem;  /* Reduced from 1rem */
+    height: auto;
+    margin-bottom: 1rem;
+    animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Building - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/green-building.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platform</a>
+                    <a href="green-building.html" class="active">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search green building resources...">
+            </div>
+            <button class="search-icon" title="Search green building resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="green-building-page">
+        <section class="green-building-hero">
+            <h1>Green Building Assessment</h1>
+            <p>Evaluate and optimize your building's environmental performance</p>
+        </section>
+
+        <div class="green-building-dashboard">
+            <!-- Building Assessment -->
+            <section class="dashboard-section building-assessment">
+                <h2>Building Assessment</h2>
+                <div class="assessment-grid">
+                    <div class="assessment-card">
+                        <div class="assessment-header">
+                            <h3>Overall Score</h3>
+                            <div class="score-circle">
+                                <span class="score-value">85</span>
+                                <span class="score-label">/ 100</span>
+                            </div>
+                        </div>
+                        <div class="assessment-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Energy Efficiency</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 90%"></div>
+                                </div>
+                                <span class="detail-value">90%</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Water Conservation</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 85%"></div>
+                                </div>
+                                <span class="detail-value">85%</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Waste Management</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 80%"></div>
+                                </div>
+                                <span class="detail-value">80%</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Indoor Air Quality</span>
+                                <div class="progress-bar">
+                                    <div class="progress" style="width: 95%"></div>
+                                </div>
+                                <span class="detail-value">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="assessment-card">
+                        <h3>Certifications</h3>
+                        <div class="certifications-list">
+                            <div class="certification-item">
+                                <i class="fas fa-award"></i>
+                                <div class="certification-info">
+                                    <h4>LEED Gold</h4>
+                                    <p>Valid until: Dec 2025</p>
+                                </div>
+                            </div>
+                            <div class="certification-item">
+                                <i class="fas fa-leaf"></i>
+                                <div class="certification-info">
+                                    <h4>Energy Star</h4>
+                                    <p>Valid until: Mar 2026</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Energy Efficiency -->
+            <section class="dashboard-section energy-efficiency">
+                <h2>Energy Efficiency</h2>
+                <div class="energy-grid">
+                    <div class="energy-card">
+                        <h3>Energy Consumption</h3>
+                        <canvas id="energyConsumptionChart"></canvas>
+                    </div>
+                    <div class="energy-card">
+                        <h3>Energy Sources</h3>
+                        <canvas id="energySourcesChart"></canvas>
+                    </div>
+                    <div class="energy-card">
+                        <h3>Peak Usage Times</h3>
+                        <canvas id="peakUsageChart"></canvas>
+                    </div>
+                    <div class="energy-card">
+                        <h3>Cost Savings</h3>
+                        <canvas id="costSavingsChart"></canvas>
+                    </div>
+                </div>
+                <div class="energy-recommendations">
+                    <h3>Energy Optimization Recommendations</h3>
+                    <div class="recommendations-list">
+                        <div class="recommendation-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div class="recommendation-content">
+                                <h4>LED Lighting Upgrade</h4>
+                                <p>Replace traditional bulbs with LED lighting to save 75% on lighting energy</p>
+                                <span class="potential-savings">Potential savings: $2,500/year</span>
+                            </div>
+                        </div>
+                        <div class="recommendation-item">
+                            <i class="fas fa-temperature-high"></i>
+                            <div class="recommendation-content">
+                                <h4>Smart Thermostat Installation</h4>
+                                <p>Install smart thermostats to optimize heating and cooling schedules</p>
+                                <span class="potential-savings">Potential savings: $1,800/year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Water Conservation -->
+            <section class="dashboard-section water-conservation">
+                <h2>Water Conservation</h2>
+                <div class="water-grid">
+                    <div class="water-card">
+                        <h3>Water Usage Trends</h3>
+                        <canvas id="waterUsageChart"></canvas>
+                    </div>
+                    <div class="water-card">
+                        <h3>Water Sources</h3>
+                        <canvas id="waterSourcesChart"></canvas>
+                    </div>
+                    <div class="water-card">
+                        <h3>Conservation Impact</h3>
+                        <canvas id="conservationImpactChart"></canvas>
+                    </div>
+                </div>
+                <div class="water-recommendations">
+                    <h3>Water Conservation Recommendations</h3>
+                    <div class="recommendations-list">
+                        <div class="recommendation-item">
+                            <i class="fas fa-tint"></i>
+                            <div class="recommendation-content">
+                                <h4>Low-Flow Fixtures</h4>
+                                <p>Install low-flow faucets and showerheads to reduce water consumption</p>
+                                <span class="potential-savings">Potential savings: 30% water reduction</span>
+                            </div>
+                        </div>
+                        <div class="recommendation-item">
+                            <i class="fas fa-recycle"></i>
+                            <div class="recommendation-content">
+                                <h4>Greywater System</h4>
+                                <p>Implement a greywater recycling system for landscape irrigation</p>
+                                <span class="potential-savings">Potential savings: 40% irrigation water</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sustainability Metrics -->
+            <section class="dashboard-section sustainability-metrics">
+                <h2>Sustainability Metrics</h2>
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Carbon Footprint</h3>
+                            <div class="metric-value">245.8 tCO2e</div>
+                            <div class="metric-trend positive">
+                                <i class="fas fa-arrow-down"></i>
+                                <span>12% reduction this year</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Renewable Energy</h3>
+                            <div class="metric-value">65%</div>
+                            <div class="metric-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>5% increase this year</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Waste Diversion</h3>
+                            <div class="metric-value">85%</div>
+                            <div class="metric-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>8% increase this year</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-tree"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Green Space</h3>
+                            <div class="metric-value">30%</div>
+                            <div class="metric-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>3% increase this year</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/green-building.js"></script>
+</body>
+</html> 

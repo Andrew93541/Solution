@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ecohub.app-mergeReleaseResources-65:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prite\\.gradle\\caches\\8.10\\transforms\\0a16e38edd26ef24ef8bdab0de5a9e8b\\transformed\\appcompat-1.6.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

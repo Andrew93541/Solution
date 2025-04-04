@@ -1,0 +1,750 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\d845ec25adeba9fa0ffec5c7051241b6\transformed\coil-compose-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\0132b9b4728c4aa8cb73abe52acd4054\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\5626d02f7a7f857d4c18f500c63bc8fd\transformed\coil-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\212aa599e38fc86a90b192837f56ca70\transformed\coil-base-2.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc43527ab8326ba2226847b2f410544c\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0a16e38edd26ef24ef8bdab0de5a9e8b\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\f86018360d03f140c400c440704a1bf9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\d60dce0779411491ba5a130c8992c368\transformed\hilt-navigation-compose-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\509fe4008542581d86a7bf4c4620db1f\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\e69d17165689fbfd48fd54e9cd070be9\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\a2117aeb146f2c0f19230344319543c8\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\b013d902f3bf518ed846a61b3ffbe36c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\724f76b048f8e3d9aa919d28dec7d1e8\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\7ece8d6a5a5a060b86c47048cabfa636\transformed\navigation-compose-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\c67f181023a717bb1184026d9a063142\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\fbb5504fa0a7719a3b9369612a9dca94\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9650e3860fb7af3e75b1546e1cac1c1e\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0cfbf3b559b69f8c4c4954a69e94ec1d\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\716f99216de472d4d300887f7424ce9f\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\7cdd39e6c43d38b3b2710d80c2d79a7f\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0db562b10982875d6a247ee31adbad21\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\a5ae6c8575356d2036c8e1d74ea5f809\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\8a50323b39c1dd50817b90d9cb9a9b0c\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\36ebdf2b956fe80373ce421a4c664918\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9e929ec1045cfa39d6d4752894812c12\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9712f5b651c318127a03ae05f5616d12\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\499c622f399a916f50362d29f0ea9e46\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\4d411acf30e3f49851ab59feb7518045\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\b4a1454d7c33af29c50e03c9d5ea6aba\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc102429b089fbc7102597001aaa35cb\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\a0b9c38596380a7a4aeb16dde25f441e\transformed\hilt-android-2.50\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\4a159a60ef64015ad7e3d178063d8c56\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\prite\.gradle\caches\8.10\transforms\8811c72f52861034e5cb6c1244f4eef4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\0e6c1a2324851a7a59e92982ac6851d5\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b623696d617eef7514f1d2ef18173a56\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\dd05273503e1afcf3b247bba49c4ce05\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e577fce2f504f8d74bcf7aa23f8103e7\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\83893d0e48d9a4f4b533abcaaeec9457\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\63c9eb354f3a3e9d6ace07a7507b25cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\4792a4c178d88619e43a8c5b55eacc29\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\630b258ec04b0f6acf058c6ecf4b0f38\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\b7eca49b69bc217a53ebbd839191cad3\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e7b58197799efa5112660d2278d47083\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\85739c0fc0401281814f52bad025422b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\66b63b1e233d36303d3fc005a8d95de2\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\c30d564bb5bf3666e9ff2a944a350911\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\44d8a64352b2b0e899fb724d70dc60ce\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9f0abb6aa4d9bf9db634cce35722e94c\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\prite\.gradle\caches\8.10\transforms\1a1d43f6e5b0b63d82ca3e2f819476b0\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\31aa5702d41bef918c80389efe50dc59\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1f825ef2cb9f5cd92a2f81ae5efab7c8\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\48498756bfa753e62961e1f6206e1fc1\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\prite\.gradle\caches\8.10\transforms\13d7f83d5dc4a9644b37beb01e31fa64\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e1a5aa49782505e45cfe22259f13d002\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\c3e1fc5b058ebc7c7fa86eb7fa243aee\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\ceb05ace8527c8b945f55c94d421e69c\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\97b21f4cc36cea61d31cc21ece4c4094\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e8b49d6b8771d2253eff949841c2f606\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\a0c5f3dca53b20994c063e6c872517dc\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\755740c94cfb1ec37e70dea0adfb2476\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\bd23f628b3b753d80523d53a8bad0c3f\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\115ab8a0f0ddfa12259deb87e03e8e94\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\2f159d03d8b660b4f6c499a395fde8b4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1d56b57bc7d650eeedd6c14f2260e9f8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\5a04f28ec285fd5a1d9cbcbac77bb1c8\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b28db2b315f02d7ca3fca051743275f1\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\74e5acfbad30583ffb0ba578da8b5166\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\4f28c2e44a6f4131735a85b4857ef197\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\2ceee63ea92c2eb46e3e590cbc3925be\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\cdd0ac17e596addfddf493d050c6590d\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\de2a8d76b7bc4a7a9277c2709f781b77\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\75c71824343fb1c9cc582086737decbc\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\9cd4440715cc4e07ae8991192bca4310\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\fa258afd328ec900bf97160844780cf1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\b9195f99c677f54a153c3955513df4b7\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\prite\.gradle\caches\8.10\transforms\306891d9d3da42605edc18cbeee828fb\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\90619e5ff81c3f3759ddd28fb07b67d9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\467574f920826e6fd9f3b54335f783ee\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b563101319bfcd755fe070e70f45a235\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\prite\.gradle\caches\8.10\transforms\e080fde82f899b19321fde9b43e0e268\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\13ed6c9f5dfbd26345a1931449b0f893\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:16:1-19:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\prite\.gradle\caches\8.10\transforms\de4af9e8d0b411b328eafa98814cbd30\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\9acfa9f1d0834950c9d37396b93ee6b5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\prite\.gradle\caches\8.10\transforms\de4af9e8d0b411b328eafa98814cbd30\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\prite\.gradle\caches\8.10\transforms\de4af9e8d0b411b328eafa98814cbd30\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:10:5-31:19
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:10:5-31:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\4a159a60ef64015ad7e3d178063d8c56\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\4a159a60ef64015ad7e3d178063d8c56\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b623696d617eef7514f1d2ef18173a56\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b623696d617eef7514f1d2ef18173a56\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\dd05273503e1afcf3b247bba49c4ce05\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\dd05273503e1afcf3b247bba49c4ce05\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\48498756bfa753e62961e1f6206e1fc1\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\48498756bfa753e62961e1f6206e1fc1\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\9cd4440715cc4e07ae8991192bca4310\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\9cd4440715cc4e07ae8991192bca4310\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:16:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:14:9-54
+	android:roundIcon
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:17:9-54
+	tools:targetApi
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:20:9-29
+	android:icon
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:19:9-44
+	android:dataExtractionRules
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:13:9-65
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:11:9-34
+activity#com.ecohub.app.MainActivity
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:exported
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:24:13-36
+	android:theme
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:25:13-48
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml:28:27-74
+uses-sdk
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\d845ec25adeba9fa0ffec5c7051241b6\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\d845ec25adeba9fa0ffec5c7051241b6\transformed\coil-compose-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\0132b9b4728c4aa8cb73abe52acd4054\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\0132b9b4728c4aa8cb73abe52acd4054\transformed\coil-compose-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\5626d02f7a7f857d4c18f500c63bc8fd\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\5626d02f7a7f857d4c18f500c63bc8fd\transformed\coil-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\212aa599e38fc86a90b192837f56ca70\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] C:\Users\prite\.gradle\caches\8.10\transforms\212aa599e38fc86a90b192837f56ca70\transformed\coil-base-2.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc43527ab8326ba2226847b2f410544c\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc43527ab8326ba2226847b2f410544c\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0a16e38edd26ef24ef8bdab0de5a9e8b\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0a16e38edd26ef24ef8bdab0de5a9e8b\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\f86018360d03f140c400c440704a1bf9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\f86018360d03f140c400c440704a1bf9\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\d60dce0779411491ba5a130c8992c368\transformed\hilt-navigation-compose-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\d60dce0779411491ba5a130c8992c368\transformed\hilt-navigation-compose-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\509fe4008542581d86a7bf4c4620db1f\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\509fe4008542581d86a7bf4c4620db1f\transformed\hilt-navigation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\e69d17165689fbfd48fd54e9cd070be9\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\e69d17165689fbfd48fd54e9cd070be9\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\a2117aeb146f2c0f19230344319543c8\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\a2117aeb146f2c0f19230344319543c8\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\b013d902f3bf518ed846a61b3ffbe36c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\b013d902f3bf518ed846a61b3ffbe36c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\724f76b048f8e3d9aa919d28dec7d1e8\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\724f76b048f8e3d9aa919d28dec7d1e8\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\7ece8d6a5a5a060b86c47048cabfa636\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] C:\Users\prite\.gradle\caches\8.10\transforms\7ece8d6a5a5a060b86c47048cabfa636\transformed\navigation-compose-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\c67f181023a717bb1184026d9a063142\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\c67f181023a717bb1184026d9a063142\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\fbb5504fa0a7719a3b9369612a9dca94\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\fbb5504fa0a7719a3b9369612a9dca94\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9650e3860fb7af3e75b1546e1cac1c1e\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9650e3860fb7af3e75b1546e1cac1c1e\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0cfbf3b559b69f8c4c4954a69e94ec1d\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0cfbf3b559b69f8c4c4954a69e94ec1d\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\716f99216de472d4d300887f7424ce9f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\716f99216de472d4d300887f7424ce9f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\7cdd39e6c43d38b3b2710d80c2d79a7f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\7cdd39e6c43d38b3b2710d80c2d79a7f\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0db562b10982875d6a247ee31adbad21\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\0db562b10982875d6a247ee31adbad21\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\a5ae6c8575356d2036c8e1d74ea5f809\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\a5ae6c8575356d2036c8e1d74ea5f809\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\8a50323b39c1dd50817b90d9cb9a9b0c\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\8a50323b39c1dd50817b90d9cb9a9b0c\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\36ebdf2b956fe80373ce421a4c664918\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\36ebdf2b956fe80373ce421a4c664918\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9e929ec1045cfa39d6d4752894812c12\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9e929ec1045cfa39d6d4752894812c12\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9712f5b651c318127a03ae05f5616d12\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9712f5b651c318127a03ae05f5616d12\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\499c622f399a916f50362d29f0ea9e46\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\499c622f399a916f50362d29f0ea9e46\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\4d411acf30e3f49851ab59feb7518045\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\4d411acf30e3f49851ab59feb7518045\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\b4a1454d7c33af29c50e03c9d5ea6aba\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\b4a1454d7c33af29c50e03c9d5ea6aba\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc102429b089fbc7102597001aaa35cb\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\cc102429b089fbc7102597001aaa35cb\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\a0b9c38596380a7a4aeb16dde25f441e\transformed\hilt-android-2.50\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\a0b9c38596380a7a4aeb16dde25f441e\transformed\hilt-android-2.50\AndroidManifest.xml:18:3-42
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\4a159a60ef64015ad7e3d178063d8c56\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\4a159a60ef64015ad7e3d178063d8c56\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\prite\.gradle\caches\8.10\transforms\8811c72f52861034e5cb6c1244f4eef4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\prite\.gradle\caches\8.10\transforms\8811c72f52861034e5cb6c1244f4eef4\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\0e6c1a2324851a7a59e92982ac6851d5\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\0e6c1a2324851a7a59e92982ac6851d5\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b623696d617eef7514f1d2ef18173a56\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b623696d617eef7514f1d2ef18173a56\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\dd05273503e1afcf3b247bba49c4ce05\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\dd05273503e1afcf3b247bba49c4ce05\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e577fce2f504f8d74bcf7aa23f8103e7\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e577fce2f504f8d74bcf7aa23f8103e7\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\83893d0e48d9a4f4b533abcaaeec9457\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\83893d0e48d9a4f4b533abcaaeec9457\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\63c9eb354f3a3e9d6ace07a7507b25cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\63c9eb354f3a3e9d6ace07a7507b25cd\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\4792a4c178d88619e43a8c5b55eacc29\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\4792a4c178d88619e43a8c5b55eacc29\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\630b258ec04b0f6acf058c6ecf4b0f38\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\630b258ec04b0f6acf058c6ecf4b0f38\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\b7eca49b69bc217a53ebbd839191cad3\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\b7eca49b69bc217a53ebbd839191cad3\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e7b58197799efa5112660d2278d47083\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e7b58197799efa5112660d2278d47083\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\85739c0fc0401281814f52bad025422b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\85739c0fc0401281814f52bad025422b\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\66b63b1e233d36303d3fc005a8d95de2\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\66b63b1e233d36303d3fc005a8d95de2\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\c30d564bb5bf3666e9ff2a944a350911\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\prite\.gradle\caches\8.10\transforms\c30d564bb5bf3666e9ff2a944a350911\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\44d8a64352b2b0e899fb724d70dc60ce\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\44d8a64352b2b0e899fb724d70dc60ce\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9f0abb6aa4d9bf9db634cce35722e94c\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\9f0abb6aa4d9bf9db634cce35722e94c\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\prite\.gradle\caches\8.10\transforms\1a1d43f6e5b0b63d82ca3e2f819476b0\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] C:\Users\prite\.gradle\caches\8.10\transforms\1a1d43f6e5b0b63d82ca3e2f819476b0\transformed\accompanist-drawablepainter-0.32.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\31aa5702d41bef918c80389efe50dc59\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\31aa5702d41bef918c80389efe50dc59\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1f825ef2cb9f5cd92a2f81ae5efab7c8\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1f825ef2cb9f5cd92a2f81ae5efab7c8\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\48498756bfa753e62961e1f6206e1fc1\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\48498756bfa753e62961e1f6206e1fc1\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\prite\.gradle\caches\8.10\transforms\13d7f83d5dc4a9644b37beb01e31fa64\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\prite\.gradle\caches\8.10\transforms\13d7f83d5dc4a9644b37beb01e31fa64\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e1a5aa49782505e45cfe22259f13d002\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\e1a5aa49782505e45cfe22259f13d002\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\c3e1fc5b058ebc7c7fa86eb7fa243aee\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\c3e1fc5b058ebc7c7fa86eb7fa243aee\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\ceb05ace8527c8b945f55c94d421e69c\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\ceb05ace8527c8b945f55c94d421e69c\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\97b21f4cc36cea61d31cc21ece4c4094\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\97b21f4cc36cea61d31cc21ece4c4094\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e8b49d6b8771d2253eff949841c2f606\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\e8b49d6b8771d2253eff949841c2f606\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\a0c5f3dca53b20994c063e6c872517dc\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\a0c5f3dca53b20994c063e6c872517dc\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\755740c94cfb1ec37e70dea0adfb2476\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\755740c94cfb1ec37e70dea0adfb2476\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\bd23f628b3b753d80523d53a8bad0c3f\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\prite\.gradle\caches\8.10\transforms\bd23f628b3b753d80523d53a8bad0c3f\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\115ab8a0f0ddfa12259deb87e03e8e94\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\115ab8a0f0ddfa12259deb87e03e8e94\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\2f159d03d8b660b4f6c499a395fde8b4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\2f159d03d8b660b4f6c499a395fde8b4\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1d56b57bc7d650eeedd6c14f2260e9f8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\1d56b57bc7d650eeedd6c14f2260e9f8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\5a04f28ec285fd5a1d9cbcbac77bb1c8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\5a04f28ec285fd5a1d9cbcbac77bb1c8\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b28db2b315f02d7ca3fca051743275f1\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b28db2b315f02d7ca3fca051743275f1\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\74e5acfbad30583ffb0ba578da8b5166\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\74e5acfbad30583ffb0ba578da8b5166\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\4f28c2e44a6f4131735a85b4857ef197\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\4f28c2e44a6f4131735a85b4857ef197\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\2ceee63ea92c2eb46e3e590cbc3925be\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\2ceee63ea92c2eb46e3e590cbc3925be\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\cdd0ac17e596addfddf493d050c6590d\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\cdd0ac17e596addfddf493d050c6590d\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\de2a8d76b7bc4a7a9277c2709f781b77\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\de2a8d76b7bc4a7a9277c2709f781b77\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\75c71824343fb1c9cc582086737decbc\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\75c71824343fb1c9cc582086737decbc\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\9cd4440715cc4e07ae8991192bca4310\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\9cd4440715cc4e07ae8991192bca4310\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\fa258afd328ec900bf97160844780cf1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\fa258afd328ec900bf97160844780cf1\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\b9195f99c677f54a153c3955513df4b7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\prite\.gradle\caches\8.10\transforms\b9195f99c677f54a153c3955513df4b7\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\prite\.gradle\caches\8.10\transforms\306891d9d3da42605edc18cbeee828fb\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\prite\.gradle\caches\8.10\transforms\306891d9d3da42605edc18cbeee828fb\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\90619e5ff81c3f3759ddd28fb07b67d9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\90619e5ff81c3f3759ddd28fb07b67d9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\467574f920826e6fd9f3b54335f783ee\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\467574f920826e6fd9f3b54335f783ee\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b563101319bfcd755fe070e70f45a235\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\b563101319bfcd755fe070e70f45a235\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\prite\.gradle\caches\8.10\transforms\e080fde82f899b19321fde9b43e0e268\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\prite\.gradle\caches\8.10\transforms\e080fde82f899b19321fde9b43e0e268\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\13ed6c9f5dfbd26345a1931449b0f893\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\prite\.gradle\caches\8.10\transforms\13ed6c9f5dfbd26345a1931449b0f893\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:18:3-42
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\prite\.gradle\caches\8.10\transforms\de4af9e8d0b411b328eafa98814cbd30\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\prite\.gradle\caches\8.10\transforms\de4af9e8d0b411b328eafa98814cbd30\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\9acfa9f1d0834950c9d37396b93ee6b5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\prite\.gradle\caches\8.10\transforms\9acfa9f1d0834950c9d37396b93ee6b5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\prite\OneDrive\Desktop\Solution\app\src\main\AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\6f8f1d7aa451e9e8fc9497cf4342c009\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\68815dc2c6cfac502af7d4a315d92fac\transformed\ui-test-manifest-1.6.1\AndroidManifest.xml:24:13-63
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\84863598d6c4f331b52699b2240f15b6\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\87ec39cddec55b07d8042cdddb407b03\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\7dd951b253bb2acb4a546811686b09ef\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:13:17-125
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\9f5a24ace7b24c82b3cb4222bd133890\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\0527a42d12cf67bed4c687f136ea030a\transformed\firebase-firestore-ktx-24.10.2\AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.2] C:\Users\prite\.gradle\caches\8.10\transforms\19bbf834b757790325a3c5764b0f7740\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\prite\.gradle\caches\8.10\transforms\d29771c1003846b76ad835767dc1b8a2\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\prite\.gradle\caches\8.10\transforms\1fb857445021f693664207122b72674f\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\1cfd41008dc0d3f02d2b7e210090d4cf\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\prite\.gradle\caches\8.10\transforms\2a2de4f12126a2303c29b6989aef5942\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\prite\.gradle\caches\8.10\transforms\45b21f6d0fdae303b90b5e37e9b982ed\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\prite\.gradle\caches\8.10\transforms\c2999252ddb8582131efbbcf70329230\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\prite\.gradle\caches\8.10\transforms\70bdf0b51e59869e1943f06bf5718d20\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\e99444b14590da9170375d121b9e8645\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\prite\.gradle\caches\8.10\transforms\5c846bc2c306af98d80313a0df12d336\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\prite\.gradle\caches\8.10\transforms\c8bef8d37634da62538a4c3f17c65bb4\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.ecohub.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.ecohub.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\prite\.gradle\caches\8.10\transforms\a2d7a26a5829d0450623a3749d30b767\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\prite\.gradle\caches\8.10\transforms\6c7f6a74552e4db3a8a0c59e8ffd551b\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

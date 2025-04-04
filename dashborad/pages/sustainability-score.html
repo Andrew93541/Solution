@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability Score - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/sustainability-score.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html" class="active">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="water-management.html">Water Management</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search sustainability resources...">
+            </div>
+            <button class="search-icon" title="Search sustainability resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="score-page">
+        <section class="score-hero">
+            <h1>Sustainability Score</h1>
+            <p>Track and improve your sustainability performance</p>
+        </section>
+
+        <section class="score-content">
+            <div class="score-overview">
+                <div class="total-score">
+                    <h2>Your Sustainability Score</h2>
+                    <div class="score-circle">
+                        <div class="score-value">0</div>
+                        <div class="score-label">points</div>
+                    </div>
+                    <div class="score-level">Beginner</div>
+                </div>
+
+                <div class="score-breakdown">
+                    <h3>Score Breakdown</h3>
+                    <canvas id="scoreChart"></canvas>
+                </div>
+            </div>
+
+            <div class="score-details">
+                <div class="category-section">
+                    <h2>Energy Efficiency</h2>
+                    <div class="category-score">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="score">0/100</span>
+                    </div>
+                    <div class="category-actions">
+                        <button class="action-btn" data-category="energy">
+                            <i class="fas fa-bolt"></i>
+                            Complete Energy Audit
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <h2>Waste Management</h2>
+                    <div class="category-score">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="score">0/100</span>
+                    </div>
+                    <div class="category-actions">
+                        <button class="action-btn" data-category="waste">
+                            <i class="fas fa-recycle"></i>
+                            Start Recycling Program
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <h2>Transportation</h2>
+                    <div class="category-score">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="score">0/100</span>
+                    </div>
+                    <div class="category-actions">
+                        <button class="action-btn" data-category="transport">
+                            <i class="fas fa-bicycle"></i>
+                            Log Green Commute
+                        </button>
+                    </div>
+                </div>
+
+                <div class="category-section">
+                    <h2>Water Conservation</h2>
+                    <div class="category-score">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        <span class="score">0/100</span>
+                    </div>
+                    <div class="category-actions">
+                        <button class="action-btn" data-category="water">
+                            <i class="fas fa-tint"></i>
+                            Install Water-Saving Devices
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements-section">
+                <h2>Your Achievements</h2>
+                <div class="achievements-grid">
+                    <!-- Achievements will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/sustainability-score.js"></script>
+    <script>
+        document.querySelector('.search-icon').addEventListener('click', function() {
+            document.querySelector('.search-box').classList.toggle('active');
+            document.querySelector('.search-input').focus();
+        });
+    </script>
+</body>
+</html>

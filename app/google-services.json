@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302800274183",
+    "project_id": "ecohub-7c6d4",
+    "storage_bucket": "ecohub-7c6d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302800274183:android:5fd2cb9c093334decdbba2",
+        "android_client_info": {
+          "package_name": "com.ecohub.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW4dNTiq0eGUkHz6wwTe37bwlKyetsv8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

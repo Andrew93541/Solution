@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - Smart City Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/signup.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="/video/back.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="signup-box">
+            <div class="logo">
+                <img src="/img/logo.jpg" alt="Smart City Hub Logo" class="logo-img">
+                <h1>Smart City Hub</h1>
+            </div>
+            <div class="welcome-text">
+                <h2>Forgot Password?</h2>
+                <p>Enter your email to reset your password</p>
+            </div>
+            <form id="forgetForm">
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <div class="line"></div>
+                </div>
+                <button type="submit" class="signup-btn">
+                    <span>Reset Password</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+            <p class="login-link">
+                Remember your password? <a href="login.html">Login</a>
+            </p>
+        </div>
+    </div>
+    <script src="/dashborad/js/forget.js"></script>
+</body>
+</html>

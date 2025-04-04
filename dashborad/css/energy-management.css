@@ -1,0 +1,473 @@
+/* Smart Energy Management Page Styles */
+.energy-management-page {
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.energy-hero {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.energy-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.energy-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.energy-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dashboard-section {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-section h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+/* Real-time Monitoring */
+.monitoring-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.monitoring-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.monitoring-card:hover {
+    transform: translateY(-5px);
+}
+
+.monitoring-card h3 {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.usage-value {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.usage-value .value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.usage-value .unit {
+    font-size: 1rem;
+    color: #666;
+}
+
+.usage-trend {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.usage-trend.positive {
+    color: #2ecc71;
+}
+
+.usage-trend.negative {
+    color: #e74c3c;
+}
+
+/* Usage Analytics */
+.analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.analytics-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.analytics-card h3 {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+/* Smart Devices */
+.devices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.device-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.device-card:hover {
+    transform: translateY(-5px);
+}
+
+.device-icon {
+    width: 50px;
+    height: 50px;
+    background: #e8f4f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.device-info {
+    flex: 1;
+}
+
+.device-info h3 {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.device-info p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.status {
+    font-weight: 500;
+}
+
+.status.on {
+    color: #2ecc71;
+}
+
+.status.off {
+    color: #e74c3c;
+}
+
+.device-controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.control-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #e8f4f8;
+    color: #3498db;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-btn:hover {
+    background: #3498db;
+    color: white;
+}
+
+/* Energy Saving Tips */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.tip-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+}
+
+.tip-card i {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.tip-card h3 {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.tip-card p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .energy-management-page {
+        padding: 1rem;
+    }
+
+    .energy-hero {
+        padding: 2rem 1rem;
+    }
+
+    .energy-hero h1 {
+        font-size: 2rem;
+    }
+
+    .monitoring-grid,
+    .analytics-grid,
+    .devices-grid,
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .device-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .device-controls {
+        margin-top: 1rem;
+    }
+}
+
+/* Schedule Modal Styles */
+.schedule-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.schedule-modal-content {
+    background: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-modal-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule-modal-header h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #666;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.schedule-modal-body {
+    padding: 1.5rem;
+}
+
+.schedule-options {
+    margin-bottom: 2rem;
+}
+
+.schedule-option h4 {
+    margin: 0 0 1rem 0;
+    color: #333;
+}
+
+.time-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.time-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.time-input label {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.time-input input,
+.time-input select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.time-input select {
+    height: 100px;
+}
+
+.schedule-list h4 {
+    margin: 0 0 1rem 0;
+    color: #333;
+}
+
+.scheduled-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.scheduled-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scheduled-item span {
+    color: #666;
+}
+
+.delete-schedule {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: color 0.3s;
+}
+
+.delete-schedule:hover {
+    color: #c0392b;
+}
+
+.schedule-modal-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.cancel-btn,
+.save-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cancel-btn {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    color: #666;
+}
+
+.cancel-btn:hover {
+    background: #e9ecef;
+}
+
+.save-btn {
+    background: #3498db;
+    border: none;
+    color: white;
+}
+
+.save-btn:hover {
+    background: #2980b9;
+}
+
+/* Notification Styles */
+.notification {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.9rem;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.notification.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.notification.success {
+    background: #2ecc71;
+}
+
+.notification.error {
+    background: #e74c3c;
+}
+
+.notification.info {
+    background: #3498db;
+} 

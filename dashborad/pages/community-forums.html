@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forums - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/community-forums.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html" class="active">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search forums..." title="Search forums">
+            </div>
+            <button class="search-icon" title="Search forums">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="forums-page">
+        <section class="forums-hero">
+            <h1>Community Forums</h1>
+            <p>Connect, share, and learn with fellow sustainability enthusiasts</p>
+        </section>
+
+        <div class="forums-container">
+            <div class="forums-sidebar">
+                <div class="forum-categories">
+                    <h2>Categories</h2>
+                    <div class="category-list">
+                        <button class="category-btn active" data-category="all">
+                            <i class="fas fa-th-large"></i>
+                            All Topics
+                        </button>
+                        <button class="category-btn" data-category="energy">
+                            <i class="fas fa-bolt"></i>
+                            Energy
+                        </button>
+                        <button class="category-btn" data-category="recycling">
+                            <i class="fas fa-recycle"></i>
+                            Recycling
+                        </button>
+                        <button class="category-btn" data-category="transport">
+                            <i class="fas fa-bicycle"></i>
+                            Transport
+                        </button>
+                        <button class="category-btn" data-category="food">
+                            <i class="fas fa-leaf"></i>
+                            Food
+                        </button>
+                        <button class="category-btn" data-category="building">
+                            <i class="fas fa-home"></i>
+                            Building
+                        </button>
+                        <button class="category-btn" data-category="events">
+                            <i class="fas fa-calendar"></i>
+                            Events
+                        </button>
+                    </div>
+                </div>
+
+                <div class="forum-stats">
+                    <h2>Community Stats</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <span class="stat-value">1,234</span>
+                            <span class="stat-label">Members</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-comments"></i>
+                            <span class="stat-value">5,678</span>
+                            <span class="stat-label">Topics</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-reply"></i>
+                            <span class="stat-value">12,345</span>
+                            <span class="stat-label">Replies</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-eye"></i>
+                            <span class="stat-value">45,678</span>
+                            <span class="stat-label">Views</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forums-main">
+                <div class="forums-header">
+                    <div class="view-options">
+                        <button class="view-btn active" data-view="latest">
+                            <i class="fas fa-clock"></i>
+                            Latest
+                        </button>
+                        <button class="view-btn" data-view="popular">
+                            <i class="fas fa-fire"></i>
+                            Popular
+                        </button>
+                        <button class="view-btn" data-view="unanswered">
+                            <i class="fas fa-question-circle"></i>
+                            Unanswered
+                        </button>
+                    </div>
+                    <button class="new-topic-btn">
+                        <i class="fas fa-plus"></i>
+                        New Topic
+                    </button>
+                </div>
+
+                <div class="topics-list">
+                    <!-- Topics will be dynamically added here -->
+                </div>
+
+                <div class="pagination">
+                    <button class="page-btn" disabled>Previous</button>
+                    <div class="page-numbers">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span>...</span>
+                        <button class="page-btn">10</button>
+                    </div>
+                    <button class="page-btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- New Topic Modal -->
+    <div class="modal" id="newTopicModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Create New Topic</h2>
+                <button class="close-modal" title="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="newTopicForm">
+                <div class="form-group">
+                    <div class="topic-input-container">
+                        <img src="https://i.pravatar.cc/150?img=1" alt="Your avatar" class="user-avatar">
+                        <div class="topic-input-wrapper">
+                            <textarea id="topicContent" placeholder="What's on your mind?" maxlength="500"></textarea>
+                            <div class="topic-input-footer">
+                                <div class="topic-input-actions">
+                                    <button type="button" class="action-btn" title="Add image">
+                                        <i class="fas fa-image"></i>
+                                    </button>
+                                    <button type="button" class="action-btn" title="Add poll">
+                                        <i class="fas fa-chart-bar"></i>
+                                    </button>
+                                    <button type="button" class="action-btn" title="Add location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </button>
+                                    <button type="button" class="action-btn" title="Add emoji">
+                                        <i class="fas fa-smile"></i>
+                                    </button>
+                                </div>
+                                <div class="topic-input-counter">
+                                    <span id="charCount">0</span>/500
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="topic-categories">
+                        <button type="button" class="category-btn" data-category="energy">
+                            <i class="fas fa-bolt"></i>
+                            Energy
+                        </button>
+                        <button type="button" class="category-btn" data-category="recycling">
+                            <i class="fas fa-recycle"></i>
+                            Recycling
+                        </button>
+                        <button type="button" class="category-btn" data-category="transport">
+                            <i class="fas fa-bicycle"></i>
+                            Transport
+                        </button>
+                        <button type="button" class="category-btn" data-category="food">
+                            <i class="fas fa-leaf"></i>
+                            Food
+                        </button>
+                        <button type="button" class="category-btn" data-category="building">
+                            <i class="fas fa-home"></i>
+                            Building
+                        </button>
+                        <button type="button" class="category-btn" data-category="events">
+                            <i class="fas fa-calendar"></i>
+                            Events
+                        </button>
+                    </div>
+                    <input type="hidden" id="topicCategory" value="">
+                </div>
+                <div class="form-group">
+                    <div class="topic-tags-input">
+                        <input type="text" id="topicTags" placeholder="Add hashtags (e.g., #sustainability, #climate)">
+                        <div class="suggested-tags">
+                            <span class="tag">#sustainability</span>
+                            <span class="tag">#climate</span>
+                            <span class="tag">#renewable</span>
+                            <span class="tag">#ecofriendly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn" disabled>
+                        Post Topic
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/community-forums.js"></script>
+</body>
+</html> 

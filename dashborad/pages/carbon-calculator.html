@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/carbon-calculator.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html" class="active">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="water-management.html">Water Management</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search carbon footprint resources...">
+            </div>
+            <button class="search-icon" title="Search carbon footprint resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="calculator-page">
+        <section class="calculator-hero">
+            <h1>Carbon Footprint Calculator</h1>
+            <p>Calculate and reduce your carbon footprint</p>
+        </section>
+
+        <section class="calculator-content">
+            <div class="calculator-form">
+                <h2>Calculate Your Impact</h2>
+                <form id="carbon-form">
+                    <div class="form-section">
+                        <h3>Energy Usage</h3>
+                        <div class="form-group">
+                            <label for="electricity">Monthly Electricity Usage (kWh)</label>
+                            <input type="number" id="electricity" name="electricity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gas">Monthly Gas Usage (therms)</label>
+                            <input type="number" id="gas" name="gas" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Transportation</h3>
+                        <div class="form-group">
+                            <label for="car-miles">Car Miles per Month</label>
+                            <input type="number" id="car-miles" name="car-miles" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="public-transport">Public Transport Trips per Month</label>
+                            <input type="number" id="public-transport" name="public-transport" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3>Waste Management</h3>
+                        <div class="form-group">
+                            <label for="waste">Monthly Waste (kg)</label>
+                            <input type="number" id="waste" name="waste" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="recycling">Monthly Recycling (kg)</label>
+                            <input type="number" id="recycling" name="recycling" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="calculate-btn">Calculate Footprint</button>
+                </form>
+            </div>
+
+            <div class="results-section">
+                <h2>Your Results</h2>
+                <div class="results-container">
+                    <div class="total-impact">
+                        <h3>Total Carbon Footprint</h3>
+                        <div class="impact-value">
+                            <span id="total-carbon">0</span>
+                            <span class="unit">kg CO2e/year</span>
+                        </div>
+                    </div>
+
+                    <div class="impact-breakdown">
+                        <canvas id="impact-chart"></canvas>
+                    </div>
+
+                    <div class="recommendations">
+                        <h3>Recommendations</h3>
+                        <div class="recommendations-list">
+                            <!-- Recommendations will be dynamically added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/carbon-calculator.js"></script>
+    <script>
+        document.querySelector('.search-icon').addEventListener('click', function() {
+            document.querySelector('.search-box').classList.toggle('active');
+            document.querySelector('.search-input').focus();
+        });
+    </script>
+</body>
+</html>

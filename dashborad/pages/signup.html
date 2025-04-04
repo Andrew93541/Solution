@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Smart City Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/signup.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="/video/back.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="signup-box">
+            <div class="logo">
+                <img src="/img/logo.jpg" alt="Smart City Hub Logo" class="logo-img">
+                <h1>Smart City Hub</h1>
+            </div>
+            <div class="welcome-text">
+                <h2>Join Our Community</h2>
+                <p>Create your account to start your sustainable journey</p>
+            </div>
+            <form id="signupForm">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <div class="strength-meter">
+                        <div></div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-shield-alt"></i>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                </div>
+                <div class="terms">
+                    <label class="checkbox">
+                        <input type="checkbox" required>
+                        <span>I agree to the <a href="#">Terms & Conditions</a></span>
+                    </label>
+                </div>
+                <button type="submit" class="signup-btn">
+                    <span>Create Account</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+            <div class="social-login">
+                <p>Or sign up with</p>
+                <div class="social-icons">
+                    <button class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </button>
+                    <button class="social-btn github">
+                        <i class="fab fa-github"></i>
+                    </button>
+                    <button class="social-btn linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </button>
+                </div>
+            </div>
+            <p class="login-link">
+                Already have an account? <a href="login.html">Login</a>
+            </p>
+        </div>
+    </div>
+    <script src="/dashborad/js/signup.js"></script>
+    <script src="/dashborad/js/auth.js"></script>
+<script src="/dashborad/js/signin.js"></script>
+</body>
+</html>

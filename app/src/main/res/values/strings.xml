@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoHub</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_community">Community</string>
+    <string name="nav_challenges">Challenges</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_title">Welcome to EcoHub!</string>
+    <string name="welcome_subtitle">Your journey to sustainability starts here</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="carbon_calculator">Carbon Calculator</string>
+    <string name="green_tips">Green Tips</string>
+    <string name="community">Community</string>
+    <string name="daily_tip_title">Daily Sustainability Tip</string>
+    <string name="daily_tip_content">Did you know? Using LED bulbs can save up to 80% more energy than traditional incandescent bulbs.</string>
+    <string name="community_highlights">Community Highlights</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    
+    <!-- Calculator -->
+    <string name="calculate_carbon">Calculate Carbon Footprint</string>
+    <string name="transportation">Transportation</string>
+    <string name="home_energy">Home Energy</string>
+    <string name="waste">Waste</string>
+    <string name="car_miles">Car miles per week</string>
+    <string name="public_transport">Public transport hours per week</string>
+    <string name="electricity">Monthly electricity usage (kWh)</string>
+    <string name="gas">Monthly gas usage (therms)</string>
+    <string name="trash_bags">Bags of trash per week</string>
+    <string name="recycle_question">Do you recycle?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Community -->
+    <string name="join_community">Join Our Community</string>
+    <string name="share_tips">Share Sustainability Tips</string>
+    <string name="participate_events">Participate in Events</string>
+    
+    <!-- Challenges -->
+    <string name="daily_challenges">Daily Challenges</string>
+    <string name="weekly_challenges">Weekly Challenges</string>
+    <string name="monthly_challenges">Monthly Challenges</string>
+    
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="sustainability_score">Sustainability Score</string>
+    <string name="achievements">Achievements</string>
+    <string name="settings">Settings</string>
+</resources> 

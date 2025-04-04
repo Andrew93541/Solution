@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Marketplace - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/marketplace.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html" class="active">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search products..." title="Search products">
+            </div>
+            <button class="search-icon" title="Search products">
+                <i class="fas fa-search"></i>
+            </button>
+            <div class="cart-container">
+                <button class="cart-icon" title="Shopping cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="marketplace-page">
+        <section class="marketplace-hero">
+            <h1>Sustainable Marketplace</h1>
+            <p>Discover and purchase eco-friendly products from verified sustainable sellers</p>
+        </section>
+
+        <div class="marketplace-container">
+            <div class="marketplace-sidebar">
+                <div class="filters-section">
+                    <h2>Filters</h2>
+                    <div class="filter-group">
+                        <h3>Categories</h3>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="home"> Home & Living
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="fashion"> Fashion
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="food"> Food & Beverages
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="beauty"> Beauty & Personal Care
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Price Range</h3>
+                        <div class="price-range">
+                            <input type="range" min="0" max="1000" value="500" class="price-slider" title="Price range slider">
+                            <div class="price-inputs">
+                                <input type="number" placeholder="Min" class="price-input" title="Minimum price">
+                                <span>-</span>
+                                <input type="number" placeholder="Max" class="price-input" title="Maximum price">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Sustainability Features</h3>
+                        <div class="filter-options">
+                            <label class="filter-option">
+                                <input type="checkbox" value="organic"> Organic
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="recycled"> Recycled Materials
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="fairtrade"> Fair Trade
+                            </label>
+                            <label class="filter-option">
+                                <input type="checkbox" value="vegan"> Vegan
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="apply-filters-btn">Apply Filters</button>
+                </div>
+
+                <div class="seller-info">
+                    <h2>Become a Seller</h2>
+                    <p>Join our community of sustainable sellers and reach eco-conscious customers</p>
+                    <button class="become-seller-btn">Start Selling</button>
+                </div>
+            </div>
+
+            <div class="marketplace-main">
+                <div class="marketplace-header">
+                    <div class="sort-options">
+                        <select class="sort-select" aria-label="Sort products by">
+                            <option value="popular">Most Popular</option>
+                            <option value="newest">Newest First</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                        </select>
+                    </div>
+                    <div class="view-options">
+                        <button class="view-btn active" data-view="grid" title="Grid view">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button class="view-btn" data-view="list" title="List view">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Products will be dynamically added here -->
+                </div>
+
+                <div class="pagination">
+                    <button class="page-btn" disabled>Previous</button>
+                    <div class="page-numbers">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <span>...</span>
+                        <button class="page-btn">10</button>
+                    </div>
+                    <button class="page-btn">Next</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/marketplace.js"></script>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h2>Shopping Cart</h2>
+                <button class="close-cart" title="Close cart">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-amount">$0.00</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

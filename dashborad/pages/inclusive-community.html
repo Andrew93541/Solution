@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusive Community - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html" class="active">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search community resources...">
+            </div>
+            <button class="search-icon" title="Search community resources">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="inclusive-community-page">
+        <section class="community-hero">
+            <h1>Inclusive Community</h1>
+            <p>Building sustainable communities that work for everyone</p>
+        </section>
+
+        <section class="community-content">
+            <div class="community-engagement">
+                <h2>Community Engagement</h2>
+                <div class="engagement-grid">
+                    <div class="event-planner">
+                        <h3>Upcoming Events</h3>
+                        <div class="event-list">
+                            <div class="event-card">
+                                <div class="event-date">
+                                    <span class="day">15</span>
+                                    <span class="month">Mar</span>
+                                </div>
+                                <div class="event-info">
+                                    <h4>Community Garden Workshop</h4>
+                                    <p><i class="fas fa-map-marker-alt"></i> Community Center</p>
+                                    <p><i class="fas fa-users"></i> 25 participants</p>
+                                    <p><i class="fas fa-clock"></i> 2:00 PM - 4:00 PM</p>
+                                </div>
+                                <button class="join-btn" title="Join event">Join Event</button>
+                            </div>
+                            <div class="event-card">
+                                <div class="event-date">
+                                    <span class="day">20</span>
+                                    <span class="month">Mar</span>
+                                </div>
+                                <div class="event-info">
+                                    <h4>Sustainability Town Hall</h4>
+                                    <p><i class="fas fa-map-marker-alt"></i> City Hall</p>
+                                    <p><i class="fas fa-users"></i> Open to all</p>
+                                    <p><i class="fas fa-clock"></i> 6:00 PM - 8:00 PM</p>
+                                </div>
+                                <button class="join-btn" title="Join event">Join Event</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feedback-system">
+                        <h3>Community Feedback</h3>
+                        <div class="feedback-form">
+                            <div class="input-group">
+                                <label for="feedback-type">Feedback Type</label>
+                                <select id="feedback-type" title="Select feedback type">
+                                    <option value="suggestion">Suggestion</option>
+                                    <option value="concern">Concern</option>
+                                    <option value="compliment">Compliment</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="feedback-area">Area</label>
+                                <select id="feedback-area" title="Select area">
+                                    <option value="transportation">Transportation</option>
+                                    <option value="housing">Housing</option>
+                                    <option value="parks">Parks & Recreation</option>
+                                    <option value="services">Community Services</option>
+                                </select>
+                            </div>
+                            <div class="input-group">
+                                <label for="feedback-message">Message</label>
+                                <textarea id="feedback-message" placeholder="Share your thoughts..."></textarea>
+                            </div>
+                            <button class="submit-btn" title="Submit feedback">Submit Feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accessibility-planning">
+                <h2>Accessibility Planning</h2>
+                <div class="accessibility-grid">
+                    <div class="accessibility-map">
+                        <h3>Accessibility Map</h3>
+                        <div id="accessibilityMap"></div>
+                        <div class="map-filters">
+                            <div class="filter-group">
+                                <label>Accessibility Features:</label>
+                                <select title="Select accessibility features">
+                                    <option value="all">All Features</option>
+                                    <option value="ramps">Wheelchair Ramps</option>
+                                    <option value="elevators">Elevators</option>
+                                    <option value="braille">Braille Signs</option>
+                                    <option value="audio">Audio Guides</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accessibility-checklist">
+                        <h3>Accessibility Checklist</h3>
+                        <div class="checklist-items">
+                            <div class="checklist-item">
+                                <input type="checkbox" id="ramps">
+                                <label for="ramps">Wheelchair Ramps</label>
+                                <span class="status">85% Complete</span>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="elevators">
+                                <label for="elevators">Elevator Access</label>
+                                <span class="status">90% Complete</span>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="braille">
+                                <label for="braille">Braille Signage</label>
+                                <span class="status">75% Complete</span>
+                            </div>
+                            <div class="checklist-item">
+                                <input type="checkbox" id="audio">
+                                <label for="audio">Audio Assistance</label>
+                                <span class="status">60% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-equity">
+                <h2>Social Equity Metrics</h2>
+                <div class="equity-grid">
+                    <div class="equity-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Affordable Housing</h3>
+                                <div class="stat-value">75%</div>
+                                <div class="stat-label">of residents have access</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-bus"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Public Transit</h3>
+                                <div class="stat-value">90%</div>
+                                <div class="stat-label">coverage area</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-tree"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>Green Space</h3>
+                                <div class="stat-value">85%</div>
+                                <div class="stat-label">of residents have access</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="equity-chart">
+                        <h3>Equity Distribution</h3>
+                        <div class="chart-container">
+                            <canvas id="equityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cultural-preservation">
+                <h2>Cultural Preservation</h2>
+                <div class="cultural-grid">
+                    <div class="heritage-sites">
+                        <h3>Heritage Sites</h3>
+                        <div class="sites-list">
+                            <div class="site-card">
+                                <img src="/img/heritage/historic-building.jpg" alt="Historic Building">
+                                <div class="site-info">
+                                    <h4>Historic Community Center</h4>
+                                    <p><i class="fas fa-map-marker-alt"></i> Downtown District</p>
+                                    <p><i class="fas fa-calendar"></i> Built in 1920</p>
+                                    <p><i class="fas fa-info-circle"></i> Cultural landmark</p>
+                                </div>
+                                <button class="learn-more-btn" title="Learn more">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cultural-events">
+                        <h3>Cultural Events</h3>
+                        <div class="events-list">
+                            <div class="event-item">
+                                <div class="event-icon">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <div class="event-info">
+                                    <h4>Traditional Music Festival</h4>
+                                    <p>Monthly celebration of local music</p>
+                                    <span class="event-date">Next: April 5, 2024</span>
+                                </div>
+                                <button class="participate-btn" title="Participate">Participate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/inclusive-community.js"></script>
+</body>
+</html> 

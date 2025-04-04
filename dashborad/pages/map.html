@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Google Map</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzU1lYqNvV0wQUVt7nu_YJ2v8Y3JRZN6k"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #map { height: 500px; width: 100%; }
+        .filter-buttons {
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .filter-buttons button {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .filter-buttons button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="filter-buttons">
+        <button onclick="filterMarkers('charging')">Electric Car Charging</button>
+        <button onclick="filterMarkers('recycling')">Plastic Recycling Centers</button>
+        <button onclick="filterMarkers('restroom')">Public Restrooms</button>
+        <button onclick="filterMarkers('gardens')">Community Gardens</button>
+        <button onclick="filterMarkers('bicycle')">Bicycle Parking & Repair</button>
+        <button onclick="filterMarkers('waste')">Smart Waste Disposal</button>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="/dashborad/js/map.js"></script> <!-- Link to the separate JS file -->
+</body>
+</html>

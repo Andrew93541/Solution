@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Challenges - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/eco-challenges.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html" class="active">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search challenges...">
+            <button class="search-icon" title="Search challenges">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="challenges-page">
+        <section class="challenges-hero">
+            <h1>Eco-Friendly Challenges</h1>
+            <p>Join exciting challenges to make a positive impact on the environment</p>
+        </section>
+
+        <div class="challenges-container">
+            <div class="challenges-sidebar">
+                <div class="user-progress">
+                    <h2>Your Progress</h2>
+                    <div class="progress-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span class="stat-value">12</span>
+                            <span class="stat-label">Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-fire"></i>
+                            <span class="stat-value">5</span>
+                            <span class="stat-label">Active</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span class="stat-value">850</span>
+                            <span class="stat-label">Points</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="my-challenges">
+                    <h2>My Challenges</h2>
+                    <div class="my-challenges-list">
+                        <!-- My challenges will be dynamically added here -->
+                    </div>
+                </div>
+
+                <div class="quick-filters">
+                    <h2>Quick Filters</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-category="all">All</button>
+                        <button class="filter-btn" data-category="energy">Energy</button>
+                        <button class="filter-btn" data-category="waste">Waste</button>
+                        <button class="filter-btn" data-category="transport">Transport</button>
+                        <button class="filter-btn" data-category="water">Water</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="challenges-main">
+                <div class="challenges-grid">
+                    <!-- Challenges will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/eco-challenges.js"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Platform - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/recycling.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html" class="active">Recycling Platform</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search recycling centers...">
+            </div>
+            <button class="search-icon" title="Search recycling centers">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="recycling-page">
+        <section class="recycling-hero">
+            <h1>Recycling Platform</h1>
+            <p>Make recycling easier and more rewarding with our comprehensive recycling solutions</p>
+        </section>
+
+        <div class="recycling-dashboard">
+            <!-- Recycling Locator -->
+            <section class="dashboard-section recycling-locator">
+                <h2>Recycling Locator</h2>
+                <div class="locator-search">
+                    <div class="input-group">
+                        <label for="recyclingSearch">
+                            <i class="fas fa-search"></i>
+                            Find Recycling Centers
+                        </label>
+                        <input type="text" id="recyclingSearch" placeholder="Enter your location or material type">
+                        <div class="search-suggestions" id="searchSuggestions"></div>
+                    </div>
+                    <div class="filter-options">
+                        <select id="materialType" aria-label="Material Type">
+                            <option value="all">All Materials</option>
+                            <option value="plastic">Plastic</option>
+                            <option value="paper">Paper</option>
+                            <option value="glass">Glass</option>
+                            <option value="metal">Metal</option>
+                            <option value="electronics">Electronics</option>
+                        </select>
+                        <select id="distance" aria-label="Distance">
+                            <option value="5">Within 5 km</option>
+                            <option value="10">Within 10 km</option>
+                            <option value="20">Within 20 km</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="recycling-map">
+                    <div id="recyclingMap"></div>
+                    <div class="map-controls">
+                        <button class="map-control-btn" id="zoomIn" title="Zoom In">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button class="map-control-btn" id="zoomOut" title="Zoom Out">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <button class="map-control-btn" id="resetMap" title="Reset Map">
+                            <i class="fas fa-sync"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="recycling-centers-list">
+                    <h3>Nearby Recycling Centers</h3>
+                    <div id="centersList">
+                        <!-- Recycling centers will be dynamically added here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recycling Guides -->
+            <section class="dashboard-section recycling-guides">
+                <h2>Recycling Guides</h2>
+                <div class="guides-grid">
+                    <div class="guide-card">
+                        <div class="guide-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="guide-content">
+                            <h3>What Can Be Recycled</h3>
+                            <p>Learn about different materials and their recycling requirements</p>
+                            <button class="guide-btn">View Guide</button>
+                        </div>
+                    </div>
+                    <div class="guide-card">
+                        <div class="guide-icon">
+                            <i class="fas fa-sort"></i>
+                        </div>
+                        <div class="guide-content">
+                            <h3>Sorting Guide</h3>
+                            <p>Proper sorting techniques for different materials</p>
+                            <button class="guide-btn">View Guide</button>
+                        </div>
+                    </div>
+                    <div class="guide-card">
+                        <div class="guide-icon">
+                            <i class="fas fa-hand-holding-heart"></i>
+                        </div>
+                        <div class="guide-content">
+                            <h3>Donation Guide</h3>
+                            <p>Where to donate items that can't be recycled</p>
+                            <button class="guide-btn">View Guide</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recycling Rewards -->
+            <section class="dashboard-section recycling-rewards">
+                <h2>Recycling Rewards</h2>
+                <div class="rewards-grid">
+                    <div class="rewards-summary">
+                        <div class="rewards-points">
+                            <h3>Your Points</h3>
+                            <div class="points-value">2,450</div>
+                            <div class="points-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>150 points this week</span>
+                            </div>
+                        </div>
+                        <div class="rewards-achievements">
+                            <h3>Achievements</h3>
+                            <div class="achievements-list">
+                                <div class="achievement-item">
+                                    <i class="fas fa-award"></i>
+                                    <span>Recycling Master</span>
+                                </div>
+                                <div class="achievement-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Eco Warrior</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rewards-catalog">
+                        <h3>Available Rewards</h3>
+                        <div class="rewards-list">
+                            <div class="reward-item">
+                                <div class="reward-info">
+                                    <h4>Eco-Friendly Water Bottle</h4>
+                                    <p>500 points</p>
+                                </div>
+                                <button class="redeem-btn">Redeem</button>
+                            </div>
+                            <div class="reward-item">
+                                <div class="reward-info">
+                                    <h4>Reusable Shopping Bag</h4>
+                                    <p>300 points</p>
+                                </div>
+                                <button class="redeem-btn">Redeem</button>
+                            </div>
+                            <div class="reward-item">
+                                <div class="reward-info">
+                                    <h4>Plant a Tree</h4>
+                                    <p>1000 points</p>
+                                </div>
+                                <button class="redeem-btn">Redeem</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recycling Analytics -->
+            <section class="dashboard-section recycling-analytics">
+                <h2>Recycling Analytics</h2>
+                <div class="analytics-filters">
+                    <select id="analyticsTimeRange" aria-label="Time Range">
+                        <option value="week">Last Week</option>
+                        <option value="month">Last Month</option>
+                        <option value="year">Last Year</option>
+                    </select>
+                    <select id="analyticsMetric" aria-label="Metric">
+                        <option value="weight">Weight Recycled</option>
+                        <option value="carbon">Carbon Saved</option>
+                        <option value="points">Points Earned</option>
+                    </select>
+                </div>
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <h3>Recycling by Material</h3>
+                        <canvas id="materialChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Recycling Trends</h3>
+                        <canvas id="trendsChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Carbon Impact</h3>
+                        <canvas id="carbonChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Community Impact</h3>
+                        <canvas id="communityChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recycling Stats -->
+            <section class="dashboard-section recycling-stats">
+                <h2>Your Recycling Stats</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-weight"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Total Recycled</h3>
+                            <div class="stat-value">245.8 kg</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>12% this month</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Carbon Saved</h3>
+                            <div class="stat-value">1,245 kg CO2</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>8% this month</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Recycling Rate</h3>
+                            <div class="stat-value">85%</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>5% this month</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Community Rank</h3>
+                            <div class="stat-value">#12</div>
+                            <div class="stat-trend positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>3 positions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/recycling.js"></script>
+</body>
+</html> 

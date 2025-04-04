@@ -1,0 +1,324 @@
+/* Waste Management Page Styles */
+.waste-management-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.waste-hero {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.waste-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.waste-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Waste Tracking Section */
+.waste-tracking {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.tracking-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.waste-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.stat-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    color: #2ecc71;
+    margin-bottom: 1rem;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.stat-unit, .stat-label {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+.waste-chart {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.chart-container {
+    height: 300px;
+    margin-top: 1rem;
+}
+
+/* Waste Optimization Section */
+.waste-optimization {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.optimization-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.optimization-list, .strategy-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.optimization-item, .strategy-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.optimization-icon, .strategy-icon {
+    font-size: 1.5rem;
+    color: #2ecc71;
+}
+
+.optimization-content, .strategy-content {
+    flex: 1;
+}
+
+.optimization-content h4, .strategy-content h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+.efficiency, .impact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: #7f8c8d;
+}
+
+.rate, .amount {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.optimize-btn, .implement-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.optimize-btn:hover, .implement-btn:hover {
+    background: #27ae60;
+}
+
+/* Composting Program Section */
+.composting-program {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.composting-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#compostMap {
+    height: 400px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.location-filters {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filter-group select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.compost-guide {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.guide-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.guide-section h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.compost-list {
+    list-style: none;
+    padding: 0;
+}
+
+.compost-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: #7f8c8d;
+}
+
+.compost-list i {
+    color: #2ecc71;
+}
+
+/* Waste Reports Section */
+.waste-reports {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reports-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.report-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+}
+
+.report-icon {
+    font-size: 2rem;
+    color: #2ecc71;
+}
+
+.report-content {
+    flex: 1;
+}
+
+.report-content h3 {
+    margin: 0 0 0.5rem 0;
+    color: #2c3e50;
+}
+
+.report-stats {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    color: #7f8c8d;
+}
+
+.value {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.download-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.download-btn:hover {
+    background: #27ae60;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tracking-grid,
+    .optimization-grid,
+    .composting-grid,
+    .guide-content {
+        grid-template-columns: 1fr;
+    }
+
+    .waste-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .reports-grid {
+        grid-template-columns: 1fr;
+    }
+} 

@@ -1,0 +1,312 @@
+/* Urban Planning Tools Page Styles */
+.urban-planning-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.urban-planning-hero {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.urban-planning-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.urban-planning-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Zoning Section */
+.zoning-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.map-container {
+    height: 400px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.map-overlay {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.zone-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.zone-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.zone-option:hover {
+    background: #f8f9fa;
+}
+
+.zone-option.active {
+    background: #9b59b6;
+    color: white;
+}
+
+.zone-details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.zone-parameter {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.zone-parameter:last-child {
+    border-bottom: none;
+}
+
+/* Development Impact Section */
+.impact-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.impact-charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.chart-container {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.impact-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.metric-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 2rem;
+    color: #9b59b6;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* Public Space Section */
+.public-space-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.space-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.space-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.space-card:hover {
+    transform: translateY(-5px);
+}
+
+.space-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.space-content {
+    padding: 1.5rem;
+}
+
+.space-title {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.space-description {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.space-features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-badge {
+    background: #f0e6f5;
+    color: #9b59b6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+}
+
+/* Transportation Section */
+.transport-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.transport-map {
+    height: 400px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.transport-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.transport-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.transport-card:hover {
+    transform: translateY(-5px);
+}
+
+.transport-icon {
+    font-size: 2rem;
+    color: #9b59b6;
+    margin-bottom: 1rem;
+}
+
+.transport-title {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.transport-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.2rem;
+    color: #9b59b6;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+}
+
+/* Action Buttons */
+.action-btn {
+    background: #9b59b6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #8e44ad;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .impact-charts {
+        grid-template-columns: 1fr;
+    }
+
+    .map-container,
+    .transport-map {
+        height: 300px;
+    }
+
+    .zone-details {
+        margin-top: 1rem;
+    }
+
+    .space-features {
+        flex-direction: column;
+    }
+} 

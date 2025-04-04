@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Energy Management - EcoHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/dashborad/css/main.css">
+    <link rel="stylesheet" href="/dashborad/css/features.css">
+    <link rel="stylesheet" href="/dashborad/css/energy-management.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="main.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">FEATURES</a>
+                <div class="dropdown-content">
+                    <a href="green-locator.html">Green Resource Locator</a>
+                    <a href="carbon-calculator.html">Carbon Footprint Calculator</a>
+                    <a href="sustainability-score.html">Sustainability Score</a>
+                    <a href="eco-challenges.html">Eco-Friendly Challenges</a>
+                    <a href="marketplace.html">Sustainable Marketplace</a>
+                    <a href="community-forums.html">Community Forums</a>
+                    <a href="energy-management.html" class="active">Smart Energy Management</a>
+                    <a href="urban-mobility.html">Urban Mobility</a>
+                    <a href="recycling.html">Recycling Platforms</a>
+                    <a href="green-building.html">Green Building</a>
+                    <a href="urban-farming.html">Urban Farming</a>
+                    <a href="infrastructure.html">Resilient Infrastructure</a>
+                    <a href="inclusive-community.html">Inclusive Community</a>
+                    <a href="waste-management.html">Waste Management</a>
+                    <a href="urban-planning.html">Urban Planning Tools</a>
+                </div>
+            </div>
+            <a href="community.html">COMMUNITY HUB</a>
+            <a href="dashboard.html">DASHBOARD</a>
+            <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search energy management...">
+            </div>
+            <button class="search-icon" title="Search energy management">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="energy-management-page">
+        <section class="energy-hero">
+            <h1>Smart Energy Management</h1>
+            <p>Monitor, analyze, and optimize your energy consumption</p>
+        </section>
+
+        <div class="energy-dashboard">
+            <!-- Real-time Monitoring -->
+            <section class="dashboard-section real-time-monitoring">
+                <h2>Real-time Monitoring</h2>
+                <div class="monitoring-grid">
+                    <div class="monitoring-card current-usage">
+                        <h3>Current Usage</h3>
+                        <div class="usage-value">
+                            <span class="value">2.4</span>
+                            <span class="unit">kW</span>
+                        </div>
+                        <div class="usage-trend positive">
+                            <i class="fas fa-arrow-down"></i>
+                            <span>12% vs yesterday</span>
+                        </div>
+                    </div>
+                    <div class="monitoring-card daily-usage">
+                        <h3>Daily Usage</h3>
+                        <div class="usage-value">
+                            <span class="value">18.5</span>
+                            <span class="unit">kWh</span>
+                        </div>
+                        <div class="usage-trend negative">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>8% vs yesterday</span>
+                        </div>
+                    </div>
+                    <div class="monitoring-card monthly-usage">
+                        <h3>Monthly Usage</h3>
+                        <div class="usage-value">
+                            <span class="value">245.3</span>
+                            <span class="unit">kWh</span>
+                        </div>
+                        <div class="usage-trend positive">
+                            <i class="fas fa-arrow-down"></i>
+                            <span>15% vs last month</span>
+                        </div>
+                    </div>
+                    <div class="monitoring-card cost">
+                        <h3>Estimated Cost</h3>
+                        <div class="usage-value">
+                            <span class="value">$45.20</span>
+                            <span class="unit">this month</span>
+                        </div>
+                        <div class="usage-trend positive">
+                            <i class="fas fa-arrow-down"></i>
+                            <span>10% vs last month</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Usage Analytics -->
+            <section class="dashboard-section usage-analytics">
+                <h2>Usage Analytics</h2>
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <h3>Daily Usage Pattern</h3>
+                        <canvas id="dailyUsageChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Monthly Comparison</h3>
+                        <canvas id="monthlyComparisonChart"></canvas>
+                    </div>
+                    <div class="analytics-card">
+                        <h3>Energy Distribution</h3>
+                        <canvas id="energyDistributionChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Smart Devices -->
+            <section class="dashboard-section smart-devices">
+                <h2>Smart Devices</h2>
+                <div class="devices-grid">
+                    <div class="device-card">
+                        <div class="device-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="device-info">
+                            <h3>Living Room Lights</h3>
+                            <p>Status: <span class="status on">On</span></p>
+                            <p>Power: 0.2 kW</p>
+                        </div>
+                        <div class="device-controls">
+                            <button class="control-btn" title="Turn off">
+                                <i class="fas fa-power-off"></i>
+                            </button>
+                            <button class="control-btn" title="Schedule">
+                                <i class="fas fa-clock"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="device-card">
+                        <div class="device-icon">
+                            <i class="fas fa-temperature-high"></i>
+                        </div>
+                        <div class="device-info">
+                            <h3>Thermostat</h3>
+                            <p>Status: <span class="status on">On</span></p>
+                            <p>Temperature: 22°C</p>
+                        </div>
+                        <div class="device-controls">
+                            <button class="control-btn" title="Adjust temperature">
+                                <i class="fas fa-sliders-h"></i>
+                            </button>
+                            <button class="control-btn" title="Schedule">
+                                <i class="fas fa-clock"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="device-card">
+                        <div class="device-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <div class="device-info">
+                            <h3>Smart Plug</h3>
+                            <p>Status: <span class="status off">Off</span></p>
+                            <p>Power: 0 kW</p>
+                        </div>
+                        <div class="device-controls">
+                            <button class="control-btn" title="Turn on">
+                                <i class="fas fa-power-off"></i>
+                            </button>
+                            <button class="control-btn" title="Schedule">
+                                <i class="fas fa-clock"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Energy Saving Tips -->
+            <section class="dashboard-section energy-tips">
+                <h2>Energy Saving Tips</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Switch to LED</h3>
+                        <p>Replace traditional bulbs with energy-efficient LED bulbs to save up to 80% on lighting costs.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-temperature-high"></i>
+                        <h3>Optimize Thermostat</h3>
+                        <p>Set your thermostat to 20°C in winter and 25°C in summer for optimal comfort and energy savings.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-wind"></i>
+                        <h3>Use Natural Ventilation</h3>
+                        <p>Open windows during cooler hours to reduce AC usage and improve indoor air quality.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-plug"></i>
+                        <h3>Unplug Unused Devices</h3>
+                        <p>Many devices consume power even when turned off. Unplug them when not in use.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EcoHub</h3>
+                <div class="follow-us">
+                    <h4>Follow us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/dashborad/js/features.js"></script>
+    <script src="/dashborad/js/energy-management.js"></script>
+</body>
+</html> 

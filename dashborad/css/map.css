@@ -1,0 +1,16 @@
+#map { height: 500px; width: 100%; }
+.filter-buttons {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.filter-buttons button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.filter-buttons button:hover {
+    background-color: #218838;
+}

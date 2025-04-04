@@ -1,0 +1,460 @@
+/* Urban Farming Page Styles */
+.urban-farming-page {
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.urban-farming-hero {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.urban-farming-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.urban-farming-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.urban-farming-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dashboard-section {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-section h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+/* Farm Overview */
+.farm-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+.farm-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.farm-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.farm-stats {
+    display: flex;
+    gap: 2rem;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-item i {
+    font-size: 1.5rem;
+    color: #2ecc71;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.map-container {
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Weather Info */
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.current-weather {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.current-weather i {
+    font-size: 2.5rem;
+    color: #f1c40f;
+}
+
+.weather-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.condition {
+    color: #666;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.forecast-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.forecast-item i {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.day {
+    font-weight: 500;
+    color: #333;
+}
+
+.temp {
+    color: #666;
+}
+
+/* Crop Management */
+.crop-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.crop-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: 300px;
+}
+
+.crop-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.crops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.crop-item {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.crop-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.crop-info {
+    flex: 1;
+}
+
+.crop-info h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.crop-progress {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    flex: 1;
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #2ecc71;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+/* Community Features */
+.community-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.community-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.community-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.market-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.market-schedule,
+.market-location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+}
+
+.workshop-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.workshop-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.workshop-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    background: #e8f8f0;
+    border-radius: 4px;
+}
+
+.day {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+.month {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.workshop-info {
+    flex: 1;
+}
+
+.workshop-info h4 {
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.workshop-info p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.exchange-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.exchange-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.exchange-icon {
+    width: 40px;
+    height: 40px;
+    background: #e8f8f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #2ecc71;
+}
+
+.exchange-info {
+    flex: 1;
+}
+
+.exchange-info h4 {
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.exchange-info p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Resources & Tips */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.resource-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.resource-card i {
+    font-size: 2rem;
+    color: #2ecc71;
+    margin-bottom: 1rem;
+}
+
+.resource-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.resource-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.resource-list li {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+/* Action Buttons */
+.action-btn {
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-btn:hover {
+    background: #27ae60;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .urban-farming-page {
+        padding: 1rem;
+    }
+
+    .urban-farming-hero {
+        padding: 2rem 1rem;
+    }
+
+    .urban-farming-hero h1 {
+        font-size: 2rem;
+    }
+
+    .farm-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .farm-stats {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .crop-grid,
+    .community-grid,
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .crop-card {
+        height: 250px;
+    }
+
+    .crop-item {
+        flex-direction: column;
+    }
+
+    .crop-image {
+        width: 100%;
+        height: 150px;
+    }
+
+    .workshop-item,
+    .exchange-item {
+        flex-direction: column;
+        text-align: center;
+    }
+} 
