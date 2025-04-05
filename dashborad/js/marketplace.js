@@ -183,7 +183,132 @@ function initializeSearch() {
     }
 }
 
-function initializeProducts() {
+// API endpoints for different marketplaces
+const API_ENDPOINTS = {
+    amazon: 'https://api.amazon.com/products/eco-friendly',
+    flipkart: 'https://api.flipkart.com/products/sustainable',
+    etsy: 'https://api.etsy.com/v3/listings/eco-friendly'
+};
+
+// API keys (should be stored securely in environment variables)
+const API_KEYS = {
+    amazon: '',
+    flipkart: 'YOUR_FLIPKART_API_KEY',
+    etsy: 'YOUR_ETSY_API_KEY'
+};
+
+// Function to fetch products from different marketplaces
+async function fetchEcoFriendlyProducts() {
+    try {
+        const products = [];
+        
+        // Fetch from Amazon
+        const amazonResponse = await fetch(API_ENDPOINTS.amazon, {
+            headers: {
+                'Authorization': `Bearer ${API_KEYS.amazon}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        const amazonProducts = await amazonResponse.json();
+        products.push(...mapAmazonProducts(amazonProducts));
+
+        // Fetch from Flipkart
+        const flipkartResponse = await fetch(API_ENDPOINTS.flipkart, {
+            headers: {
+                'Authorization': `Bearer ${API_KEYS.flipkart}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        const flipkartProducts = await flipkartResponse.json();
+        products.push(...mapFlipkartProducts(flipkartProducts));
+
+        // Fetch from Etsy
+        const etsyResponse = await fetch(API_ENDPOINTS.etsy, {
+            headers: {
+                'Authorization': `Bearer ${API_KEYS.etsy}`,
+                'Content-Type': 'application/json'
+            }
+        });
+        const etsyProducts = await etsyResponse.json();
+        products.push(...mapEtsyProducts(etsyProducts));
+
+        return products;
+    } catch (error) {
+        console.error('Error fetching products:', error);
+        return [];
+    }
+}
+
+// Mapping functions for different marketplace products
+function mapAmazonProducts(products) {
+    return products.map(product => ({
+        id: product.ASIN,
+        title: product.title,
+        category: product.category,
+        price: product.price,
+        rating: product.rating,
+        reviews: product.reviews,
+        description: product.description,
+        image: product.image,
+        sustainability: product.sustainability_tags || [],
+        seller: {
+            name: product.seller_name,
+            rating: product.seller_rating,
+            verified: product.seller_verified
+        },
+        marketplace: 'Amazon',
+        link: product.url
+    }));
+}
+
+function mapFlipkartProducts(products) {
+    return products.map(product => ({
+        id: product.productId,
+        title: product.title,
+        category: product.category,
+        price: product.price,
+        rating: product.rating,
+        reviews: product.reviews,
+        description: product.description,
+        image: product.image,
+        sustainability: product.sustainability_tags || [],
+        seller: {
+            name: product.seller_name,
+            rating: product.seller_rating,
+            verified: product.seller_verified
+        },
+        marketplace: 'Flipkart',
+        link: product.url
+    }));
+}
+
+function mapEtsyProducts(products) {
+    return products.map(product => ({
+        id: product.listing_id,
+        title: product.title,
+        category: product.category,
+        price: product.price,
+        rating: product.rating,
+        reviews: product.reviews,
+        description: product.description,
+        image: product.image,
+        sustainability: product.sustainability_tags || [],
+        seller: {
+            name: product.shop_name,
+            rating: product.shop_rating,
+            verified: product.shop_verified
+        },
+        marketplace: 'Etsy',
+        link: product.url
+    }));
+}
+
+// Update the initializeProducts function
+async function initializeProducts() {
+    const realProducts = await fetchEcoFriendlyProducts();
+    if (realProducts.length > 0) {
+        products = realProducts;
+    }
     displayProducts();
 }
 
@@ -191,22 +316,20 @@ function displayProducts() {
     const productsGrid = document.querySelector('.products-grid');
     if (!productsGrid) return;
 
-    // Apply filters and sorting
     let filteredProducts = filterProducts(products);
     filteredProducts = sortProducts(filteredProducts);
 
-    // Apply pagination
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
     const paginatedProducts = filteredProducts.slice(startIndex, endIndex);
 
-    // Update grid/list view
     productsGrid.className = `products-${currentView}`;
     productsGrid.innerHTML = paginatedProducts.map(product => `
         <div class="product-card">
             <div class="product-image">
                 <img src="${product.image}" alt="${product.title}">
                 <span class="sustainability-badge">${product.sustainability.join(', ')}</span>
+                <span class="marketplace-badge">${product.marketplace}</span>
             </div>
             <div class="product-info">
                 <h3>${product.title}</h3>
@@ -216,12 +339,14 @@ function displayProducts() {
                 </div>
                 <p class="product-description">${product.description}</p>
                 <div class="product-price">$${product.price.toFixed(2)}</div>
-                <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
+                <div class="product-actions">
+                    <button class="add-to-cart" onclick="addToCart(${product.id})">Add to Cart</button>
+                    <a href="${product.link}" target="_blank" class="view-on-marketplace">View on ${product.marketplace}</a>
+                </div>
             </div>
         </div>
     `).join('');
 
-    // Update pagination
     updatePagination(filteredProducts.length);
 }
 
