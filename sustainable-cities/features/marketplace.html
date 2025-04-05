@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Marketplace - EcoUrban</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoUrban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="../index.html" class="back-to-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="feature-intro">
+                <h1>Sustainable Marketplace</h1>
+                <p>Discover eco-friendly products and support sustainable businesses in your community.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="marketplace-section">
+        <div class="container">
+            <div class="marketplace-filters">
+                <div class="filter-group">
+                    <label for="product-category">Category:</label>
+                    <select id="product-category">
+                        <option value="all">All Categories</option>
+                        <option value="energy">Energy Solutions</option>
+                        <option value="water">Water Conservation</option>
+                        <option value="waste">Waste Reduction</option>
+                        <option value="food">Sustainable Food</option>
+                        <option value="transportation">Eco Transportation</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="product-sort">Sort by:</label>
+                    <select id="product-sort">
+                        <option value="popular">Most Popular</option>
+                        <option value="newest">Newest</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rated</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="product-location">Location:</label>
+                    <select id="product-location">
+                        <option value="all">All Locations</option>
+                        <option value="local">Local Only</option>
+                        <option value="national">National</option>
+                        <option value="international">International</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Marketplace Guidelines Section -->
+    <section class="marketplace-guidelines">
+        <div class="container">
+            <h2 class="section-title">Marketplace Guidelines</h2>
+            <p class="section-description">To maintain a sustainable and trustworthy marketplace, please follow these guidelines</p>
+            
+            <div class="guidelines-container">
+                <div class="guideline-category">
+                    <h3><i class="fas fa-leaf"></i> Product Requirements</h3>
+                    <ul>
+                        <li>All products must be eco-friendly and sustainable</li>
+                        <li>Products should have minimal environmental impact</li>
+                        <li>Clear, high-quality images are required for all listings</li>
+                        <li>Accurate product descriptions and pricing are mandatory</li>
+                        <li>Products must be in good condition and fully functional</li>
+                    </ul>
+                </div>
+
+                <div class="guideline-category">
+                    <h3><i class="fas fa-user-shield"></i> Seller Responsibilities</h3>
+                    <ul>
+                        <li>Provide accurate contact information</li>
+                        <li>Respond to buyer inquiries within 24 hours</li>
+                        <li>Ship products in eco-friendly packaging</li>
+                        <li>Maintain transparent communication about shipping times</li>
+                        <li>Handle returns and refunds professionally</li>
+                    </ul>
+                </div>
+
+                <div class="guideline-category">
+                    <h3><i class="fas fa-handshake"></i> Community Standards</h3>
+                    <ul>
+                        <li>Treat all members with respect</li>
+                        <li>Provide honest product reviews and ratings</li>
+                        <li>Report any suspicious activity</li>
+                        <li>Share sustainable practices and tips</li>
+                        <li>Support local and small businesses</li>
+                    </ul>
+                </div>
+
+                <div class="guideline-category">
+                    <h3><i class="fas fa-ban"></i> Prohibited Items</h3>
+                    <ul>
+                        <li>Non-eco-friendly products</li>
+                        <li>Products with excessive packaging</li>
+                        <li>Items containing harmful chemicals</li>
+                        <li>Counterfeit or unauthorized products</li>
+                        <li>Products that violate environmental regulations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="guidelines-footer">
+                <p>By using our marketplace, you agree to follow these guidelines. Violations may result in account suspension or removal of listings.</p>
+                <a href="#" class="btn btn-outline">Contact Support</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sell Your Products Section -->
+    <section class="sell-products">
+        <div class="container">
+            <h2 class="section-title">Sell Your Products</h2>
+            <p class="section-description">Share your sustainable products with our community</p>
+            
+            <div class="sell-form-container">
+                <form id="sellProductForm" class="sell-form">
+                    <div class="form-group">
+                        <label for="product-name">Product Name</label>
+                        <input type="text" id="product-name" name="product-name" required placeholder="Enter product name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-category">Category</label>
+                        <select id="product-category" name="product-category" required>
+                            <option value="">Select category</option>
+                            <option value="Energy">Energy</option>
+                            <option value="Water">Water</option>
+                            <option value="Waste">Waste</option>
+                            <option value="Gardening">Gardening</option>
+                            <option value="Transportation">Transportation</option>
+                            <option value="Lifestyle">Lifestyle</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-price">Price ($)</label>
+                        <input type="number" id="product-price" name="product-price" required min="0" step="0.01" placeholder="0.00">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-description">Description</label>
+                        <textarea id="product-description" name="product-description" required placeholder="Describe your product and its sustainable features"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-location">Location</label>
+                        <input type="text" id="product-location" name="product-location" required placeholder="City, State">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="product-image">Product Image</label>
+                        <div class="image-upload">
+                            <input type="file" id="product-image" name="product-image" accept="image/*" required>
+                            <div class="upload-preview">
+                                <img id="image-preview" src="#" alt="Preview" style="display: none;">
+                                <div class="upload-placeholder">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <span>Click to upload image</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="seller-contact">Contact Information</label>
+                        <input type="email" id="seller-contact" name="seller-contact" required placeholder="Your email address">
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit Product</button>
+                    </div>
+                </form>
+                
+                <div class="sell-guidelines">
+                    <h3>Selling Guidelines</h3>
+                    <ul>
+                        <li>Products must be eco-friendly and sustainable</li>
+                        <li>Clear, high-quality images are required</li>
+                        <li>Accurate product descriptions and pricing</li>
+                        <li>Products must be in good condition</li>
+                        <li>Contact information must be valid</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount">$0.00</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Checkout</h2>
+            <form class="checkout-form">
+                <div class="form-section">
+                    <h3>Shipping Information</h3>
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" id="city" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">ZIP Code</label>
+                            <input type="text" id="zip" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Payment Information</h3>
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h3>Order Summary</h3>
+                    <div class="order-items">
+                        <!-- Order items will be dynamically added here -->
+                    </div>
+                    <div class="order-total">
+                        <div class="subtotal">
+                            <span>Subtotal:</span>
+                            <span class="subtotal-amount">$0.00</span>
+                        </div>
+                        <div class="shipping">
+                            <span>Shipping:</span>
+                            <span class="shipping-amount">$0.00</span>
+                        </div>
+                        <div class="total">
+                            <span>Total:</span>
+                            <span class="total-amount">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-order">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoCities</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoCities. Building Sustainable Urban Futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/marketplace.js"></script>
+</body>
+</html> 

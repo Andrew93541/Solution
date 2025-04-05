@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycling Platforms - EcoUrban</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoUrban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="nav-profile">
+                <a href="profile.html" class="profile-icon" title="My Profile">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="../index.html" class="back-to-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="feature-intro">
+                <h1>Recycling Platforms</h1>
+                <p>Track, manage, and optimize your recycling activities for a sustainable future.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="recycling-container">
+        <div class="container">
+            <!-- Recycling Dashboard -->
+            <div class="recycling-dashboard">
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-recycle"></i>
+                        <h3>Total Recycled</h3>
+                        <p>1,234 kg</p>
+                        <span>This Month</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-tree"></i>
+                        <h3>Trees Saved</h3>
+                        <p>45</p>
+                        <span>Environmental Impact</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-water"></i>
+                        <h3>Water Saved</h3>
+                        <p>2,500 L</p>
+                        <span>Environmental Impact</span>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-coins"></i>
+                        <h3>Recycling Points</h3>
+                        <p>850</p>
+                        <span>Redeemable Rewards</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling Categories -->
+            <div class="recycling-categories">
+                <h2>Recycling Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <h3>Paper & Cardboard</h3>
+                        <p>Newspapers, magazines, cardboard boxes</p>
+                        <div class="category-stats">
+                            <span>125 kg this month</span>
+                            <button class="btn-log">Log Recycling</button>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <h3>Glass</h3>
+                        <p>Bottles, jars, containers</p>
+                        <div class="category-stats">
+                            <span>85 kg this month</span>
+                            <button class="btn-log">Log Recycling</button>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h3>Plastic</h3>
+                        <p>Bottles, containers, packaging</p>
+                        <div class="category-stats">
+                            <span>95 kg this month</span>
+                            <button class="btn-log">Log Recycling</button>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-car-battery"></i>
+                        </div>
+                        <h3>Electronics</h3>
+                        <p>Devices, batteries, appliances</p>
+                        <div class="category-stats">
+                            <span>45 kg this month</span>
+                            <button class="btn-log">Log Recycling</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling Centers Map -->
+            <div class="recycling-map-section">
+                <h2>Nearby Recycling Centers</h2>
+                <div class="recycling-map-container">
+                    <div id="recycling-map" class="map-placeholder">
+                        <div class="map-placeholder-content">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <h3>Recycling Centers Map</h3>
+                            <p>Find recycling centers near you</p>
+                        </div>
+                    </div>
+                    <div class="map-legend">
+                        <h3>Legend</h3>
+                        <div class="legend-item">
+                            <i class="fas fa-recycle"></i>
+                            <span>Recycling Centers</span>
+                        </div>
+                        <div class="legend-item">
+                            <i class="fas fa-box"></i>
+                            <span>Drop-off Points</span>
+                        </div>
+                        <div class="legend-item">
+                            <i class="fas fa-building"></i>
+                            <span>Processing Facilities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling Schedule -->
+            <div class="recycling-schedule">
+                <h2>Collection Schedule</h2>
+                <div class="schedule-grid">
+                    <div class="schedule-card">
+                        <div class="schedule-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>Monday</span>
+                        </div>
+                        <div class="schedule-details">
+                            <h3>Paper & Cardboard</h3>
+                            <p>Collection Time: 9:00 AM - 11:00 AM</p>
+                            <button class="btn-reminder">Set Reminder</button>
+                        </div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>Wednesday</span>
+                        </div>
+                        <div class="schedule-details">
+                            <h3>Plastic & Glass</h3>
+                            <p>Collection Time: 10:00 AM - 12:00 PM</p>
+                            <button class="btn-reminder">Set Reminder</button>
+                        </div>
+                    </div>
+                    <div class="schedule-card">
+                        <div class="schedule-date">
+                            <i class="fas fa-calendar"></i>
+                            <span>Friday</span>
+                        </div>
+                        <div class="schedule-details">
+                            <h3>Electronics</h3>
+                            <p>Collection Time: 2:00 PM - 4:00 PM</p>
+                            <button class="btn-reminder">Set Reminder</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recycling Tips -->
+            <div class="recycling-tips">
+                <h2>Recycling Tips</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Clean Before Recycling</h3>
+                        <p>Rinse containers and remove food residue to improve recycling quality.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-compress-arrows-alt"></i>
+                        <h3>Compress Items</h3>
+                        <p>Flatten boxes and crush bottles to save space in recycling bins.</p>
+                    </div>
+                    <div class="tip-card">
+                        <i class="fas fa-sort"></i>
+                        <h3>Sort Properly</h3>
+                        <p>Separate different materials to ensure effective recycling processing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoUrban</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoUrban. Building Sustainable Urban Futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/recycling.js"></script>
+</body>
+</html> 

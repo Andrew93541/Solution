@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - EcoUrban</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoUrban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="profile-icon">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" title="Toggle Profile Menu">
+                            <i class="fas fa-user-circle"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="profile.html">
+                                <i class="fas fa-user"></i>
+                                Profile
+                            </a>
+                            <a href="settings.html">
+                                <i class="fas fa-cog"></i>
+                                Settings
+                            </a>
+                            <a href="#" class="logout-btn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="profile.html" class="back-to-profile">
+                <i class="fas fa-arrow-left"></i> Back to Profile
+            </a>
+            <div class="feature-intro">
+                <h1>Settings</h1>
+                <p>Manage your account preferences and notifications</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="settings-container">
+        <div class="container">
+            <div class="settings-grid">
+                <!-- Account Settings -->
+                <div class="settings-card">
+                    <h3><i class="fas fa-user-cog"></i> Account Settings</h3>
+                    <div class="settings-form">
+                        <div class="form-group">
+                            <label for="displayName">Display Name</label>
+                            <input type="text" id="displayName" value="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" value="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" placeholder="Add phone number">
+                        </div>
+                        <button class="btn-save">Save Changes</button>
+                    </div>
+                </div>
+
+                <!-- Notification Preferences -->
+                <div class="settings-card">
+                    <h3><i class="fas fa-bell"></i> Notification Preferences</h3>
+                    <div class="settings-list">
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Email Notifications</h4>
+                                <p>Receive updates and alerts via email</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Push Notifications</h4>
+                                <p>Get instant updates in your browser</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>SMS Notifications</h4>
+                                <p>Receive important alerts via SMS</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Privacy Settings -->
+                <div class="settings-card">
+                    <h3><i class="fas fa-shield-alt"></i> Privacy Settings</h3>
+                    <div class="settings-list">
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Profile Visibility</h4>
+                                <p>Make your profile visible to other users</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Activity Sharing</h4>
+                                <p>Share your eco activities with community</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Location Services</h4>
+                                <p>Enable location-based features</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Settings -->
+                <div class="settings-card">
+                    <h3><i class="fas fa-lock"></i> Security</h3>
+                    <div class="settings-list">
+                        <div class="settings-item">
+                            <div class="setting-info">
+                                <h4>Two-Factor Authentication</h4>
+                                <p>Add an extra layer of security</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <button class="btn-secondary" id="changePassword">
+                                <i class="fas fa-key"></i>
+                                Change Password
+                            </button>
+                        </div>
+                        <div class="settings-item">
+                            <button class="btn-secondary" id="loginHistory">
+                                <i class="fas fa-history"></i>
+                                View Login History
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Management -->
+                <div class="settings-card danger-zone">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Data Management</h3>
+                    <div class="settings-list">
+                        <div class="settings-item">
+                            <button class="btn-secondary" id="exportData">
+                                <i class="fas fa-file-export"></i>
+                                Export My Data
+                            </button>
+                        </div>
+                        <div class="settings-item">
+                            <button class="btn-danger" id="deleteAccount">
+                                <i class="fas fa-trash-alt"></i>
+                                Delete Account
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/auth.js"></script>
+    <script src="../js/settings.js"></script>
+</body>
+</html> 

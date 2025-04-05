@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - EcoUrban</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoUrban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="profile-icon">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle" title="Toggle Profile Menu">
+                            <i class="fas fa-user-circle"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="../features/profile.html">
+                                <i class="fas fa-user"></i>
+                                Profile
+                            </a>
+                            <a href="#" class="logout-btn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="../index.html" class="back-to-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="feature-intro">
+                <h1>My Profile</h1>
+                <p>Manage your account and view your eco-impact.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="profile-container">
+        <div class="container">
+            <div class="profile-grid">
+                <!-- Profile Information -->
+                <div class="profile-card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h2>John Doe</h2>
+                            <p>Member since January 2024</p>
+                            <p class="eco-status">Eco Warrior Level 2</p>
+                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <button class="btn-edit">
+                            <i class="fas fa-edit"></i>
+                            Edit Profile
+                        </button>
+                        <button class="btn-logout">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Eco Impact Stats -->
+                <div class="profile-stats">
+                    <h3>Your Eco Impact</h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <i class="fas fa-leaf"></i>
+                            <h4>CO2 Saved</h4>
+                            <p>245 kg</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-bicycle"></i>
+                            <h4>Green Trips</h4>
+                            <p>32 trips</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-tree"></i>
+                            <h4>Trees Saved</h4>
+                            <p>12 trees</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="profile-activity">
+                    <h3>Recent Activity</h3>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <i class="fas fa-bicycle"></i>
+                            <div class="activity-details">
+                                <h4>Bike Sharing Trip</h4>
+                                <p>20 minutes • 2.5 km • 0.5 kg CO2 saved</p>
+                                <span class="activity-time">2 hours ago</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <i class="fas fa-car-side"></i>
+                            <div class="activity-details">
+                                <h4>Electric Car Share</h4>
+                                <p>45 minutes • 15 km • 2.3 kg CO2 saved</p>
+                                <span class="activity-time">Yesterday</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoCities</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoCities. Building Sustainable Urban Futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/auth.js"></script>
+</body>
+</html> 

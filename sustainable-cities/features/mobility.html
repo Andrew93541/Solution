@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Mobility Platforms - EcoUrban</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoUrban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li class="auth-buttons" style="display: none;">
+                    <a href="../auth/login.html" class="login-btn">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Login
+                    </a>
+                </li>
+                <li class="profile-icon" style="display: none;">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle">
+                            <i class="fas fa-user-circle"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="../features/profile.html">
+                                <i class="fas fa-user"></i>
+                                Profile
+                            </a>
+                            <a href="#" class="logout-btn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="../index.html" class="back-to-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="feature-intro">
+                <h1>Urban Mobility Platforms</h1>
+                <p>Discover and share sustainable transportation options in your city.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobility-container">
+        <div class="container">
+            <!-- Mobility Options Filter -->
+            <div class="mobility-filters">
+                <div class="filter-group">
+                    <label for="transport-type">Transport Type</label>
+                    <select id="transport-type">
+                        <option value="all">All Types</option>
+                        <option value="bike">Bike Sharing</option>
+                        <option value="scooter">E-Scooters</option>
+                        <option value="car">Car Sharing</option>
+                        <option value="public">Public Transit</option>
+                        <option value="walk">Walking Routes</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="location">Location</label>
+                    <select id="location">
+                        <option value="nearby">Nearby</option>
+                        <option value="downtown">Downtown</option>
+                        <option value="suburbs">Suburbs</option>
+                        <option value="all">All Areas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="availability">Availability</label>
+                    <select id="availability">
+                        <option value="all">All</option>
+                        <option value="available">Available Now</option>
+                        <option value="coming">Coming Soon</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Real-time Map -->
+            <div class="mobility-map-container">
+                <div id="mobility-map" class="map-placeholder">
+                    <div class="map-placeholder-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Interactive Map</h3>
+                        <p>Map visualization will be available soon</p>
+                    </div>
+                </div>
+                <div class="map-legend">
+                    <h3>Legend</h3>
+                    <div class="legend-item">
+                        <i class="fas fa-bicycle"></i>
+                        <span>Bike Stations</span>
+                    </div>
+                    <div class="legend-item">
+                        <i class="fas fa-car"></i>
+                        <span>Car Sharing</span>
+                    </div>
+                    <div class="legend-item">
+                        <i class="fas fa-bus"></i>
+                        <span>Public Transit</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobility Options Grid -->
+            <div class="mobility-grid">
+                <!-- Bike Sharing -->
+                <div class="mobility-card">
+                    <div class="mobility-card-header">
+                        <i class="fas fa-bicycle"></i>
+                        <h3>City Bikes</h3>
+                        <span class="availability-badge available">Available Now</span>
+                    </div>
+                    <div class="mobility-card-content">
+                        <div class="station-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Central Station</p>
+                            <p><i class="fas fa-bicycle"></i> 15 bikes available</p>
+                            <p><i class="fas fa-parking"></i> 8 parking spots</p>
+                        </div>
+                        <div class="mobility-actions">
+                            <button class="btn-reserve">Reserve Now</button>
+                            <button class="btn-directions" title="Get Directions">
+                                <i class="fas fa-directions"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-Scooters -->
+                <div class="mobility-card">
+                    <div class="mobility-card-header">
+                        <i class="fas fa-bolt"></i>
+                        <h3>E-Scooters</h3>
+                        <span class="availability-badge available">Available Now</span>
+                    </div>
+                    <div class="mobility-card-content">
+                        <div class="station-info">
+                            <p><i class="fas fa-map-marker-alt"></i> Market Square</p>
+                            <p><i class="fas fa-charging-station"></i> 12 scooters</p>
+                            <p><i class="fas fa-battery-full"></i> Fully Charged</p>
+                        </div>
+                        <div class="mobility-actions">
+                            <button class="btn-reserve">Reserve Now</button>
+                            <button class="btn-directions" title="Get Directions">
+                                <i class="fas fa-directions"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Sharing -->
+                <div class="mobility-card">
+                    <div class="mobility-card-header">
+                        <i class="fas fa-car"></i>
+                        <h3>Electric Car Share</h3>
+                        <span class="availability-badge coming-soon">Coming Soon</span>
+                    </div>
+                    <div class="mobility-card-content">
+                        <div class="station-info">
+                            <p><i class="fas fa-map-marker-alt"></i> West End Hub</p>
+                            <p><i class="fas fa-car"></i> Tesla Model 3, Nissan Leaf</p>
+                            <p><i class="fas fa-clock"></i> Available from July 2024</p>
+                        </div>
+                        <div class="mobility-actions">
+                            <button class="btn-notify">Notify Me</button>
+                            <button class="btn-directions" title="Get Directions">
+                                <i class="fas fa-directions"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobility Stats -->
+            <div class="mobility-stats">
+                <div class="stat-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>CO2 Saved</h3>
+                    <p>1,234 kg</p>
+                    <span>This Month</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Active Users</h3>
+                    <p>5,678</p>
+                    <span>And Growing</span>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-route"></i>
+                    <h3>Total Trips</h3>
+                    <p>12,345</p>
+                    <span>This Month</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoCities</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoCities. Building Sustainable Urban Futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/mobility.js"></script>
+</body>
+</html> 

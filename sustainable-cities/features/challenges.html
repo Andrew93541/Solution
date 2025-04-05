@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Challenges - Sustainable Cities</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/features.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>EcoURban</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../index.html#solutions">Solutions</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="feature-header">
+        <div class="container">
+            <a href="../index.html" class="back-to-home">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="feature-intro">
+                <h1>Eco-Friendly Challenges</h1>
+                <p>Join our community in making a difference. Complete challenges, earn points, and contribute to a more sustainable future.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="challenges-section">
+        <div class="container">
+            <div class="challenges-filters">
+                <div class="filter-group">
+                    <label for="challenge-type">Filter by Type:</label>
+                    <select id="challenge-type">
+                        <option value="all">All Challenges</option>
+                        <option value="daily">Daily Challenges</option>
+                        <option value="weekly">Weekly Challenges</option>
+                        <option value="monthly">Monthly Challenges</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="challenge-category">Filter by Category:</label>
+                    <select id="challenge-category">
+                        <option value="all">All Categories</option>
+                        <option value="energy">Energy Conservation</option>
+                        <option value="waste">Waste Reduction</option>
+                        <option value="transportation">Sustainable Transportation</option>
+                        <option value="food">Sustainable Food</option>
+                        <option value="water">Water Conservation</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="challenge-difficulty">Filter by Difficulty:</label>
+                    <select id="challenge-difficulty">
+                        <option value="all">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="challenges-grid">
+                <!-- Challenge cards will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="user-progress">
+        <div class="container">
+            <h2>Your Progress</h2>
+            <div class="progress-stats">
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Points Earned</h3>
+                    <p class="points">0</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <p class="next-level">Next Level: 500 points</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Challenges Completed</h3>
+                    <p class="completed">0</p>
+                    <div class="achievements">
+                        <div class="achievement" data-tooltip="Complete 5 challenges">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="achievement" data-tooltip="Complete 10 challenges">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="achievement" data-tooltip="Complete 25 challenges">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Environmental Impact</h3>
+                    <p class="impact">0 kg CO₂ saved</p>
+                    <div class="impact-visualization">
+                        <div class="tree-counter">
+                            <i class="fas fa-tree"></i>
+                            <span>0 trees saved</span>
+                        </div>
+                        <div class="water-counter">
+                            <i class="fas fa-tint"></i>
+                            <span>0 liters saved</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="challenge-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 class="challenge-title"></h2>
+                <div class="challenge-meta">
+                    <span class="challenge-category"></span>
+                    <span class="challenge-difficulty"></span>
+                    <span class="challenge-duration"></span>
+                </div>
+            </div>
+            <div class="challenge-details">
+                <div class="challenge-description"></div>
+                <div class="challenge-rewards">
+                    <h3>Rewards</h3>
+                    <ul class="rewards-list"></ul>
+                </div>
+                <div class="challenge-tips">
+                    <h3>Tips & Resources</h3>
+                    <ul class="tips-list"></ul>
+                </div>
+                <div class="challenge-impact">
+                    <h3>Environmental Impact</h3>
+                    <div class="impact-details"></div>
+                </div>
+            </div>
+            <div class="challenge-actions">
+                <button class="start-challenge">
+                    <i class="fas fa-play"></i> Start Challenge
+                </button>
+                <button class="complete-challenge" style="display: none;">
+                    <i class="fas fa-check"></i> Mark as Complete
+                </button>
+                <button class="share-challenge">
+                    <i class="fas fa-share-alt"></i> Share Challenge
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>EcoCities</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EcoCities. Building Sustainable Urban Futures.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/challenges.js"></script>
+</body>
+</html> 
