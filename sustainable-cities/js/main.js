@@ -125,4 +125,32 @@ images.forEach(img => {
         img.style.transition = 'opacity 0.5s ease';
         img.style.opacity = '1';
     });
+});
+
+// Video handling
+document.addEventListener('DOMContentLoaded', function() {
+    const heroVideo = document.getElementById('heroVideo');
+    const videoFallback = document.querySelector('.video-fallback');
+    
+    if (heroVideo) {
+        // Check if video can play
+        heroVideo.addEventListener('error', function() {
+            console.error('Video failed to load');
+            if (videoFallback) {
+                heroVideo.style.display = 'none';
+                videoFallback.style.display = 'block';
+            }
+        });
+
+        // Ensure video plays on mobile devices
+        heroVideo.addEventListener('loadeddata', function() {
+            heroVideo.play().catch(function(error) {
+                console.error('Video autoplay failed:', error);
+                if (videoFallback) {
+                    heroVideo.style.display = 'none';
+                    videoFallback.style.display = 'block';
+                }
+            });
+        });
+    }
 }); 
