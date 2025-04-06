@@ -41,10 +41,14 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <video class="hero-video" autoplay muted loop playsinline>
-            <source src="/sustainable-cities/assets/video/back.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <div class="hero-video">
+            <video autoplay muted loop playsinline>
+                <source src="/assets/videos/city-hero.mp4" type="video/mp4">
+                <source src="/assets/videos/city-hero.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+        </div>
         <div class="container">
             <div class="hero-content">
                 <h1 class="animate-text">Building Sustainable Cities for a Greener Tomorrow</h1>
@@ -129,20 +133,20 @@
             <div class="solutions-content">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="images/smart-grid.jpg" alt="Smart Energy Grid">
+                        <img src="/assets/images/smart-grid.jpg" alt="Smart Energy Grid">
                     </div>
                     <div class="solution-text">
-                        <h3>Smart Energy Grids</h3>
-                        <p>Intelligent energy distribution systems that optimize power usage and integrate renewable sources seamlessly</p>
+                        <h3>Smart Energy Grid</h3>
+                        <p>Intelligent energy distribution and management systems.</p>
                     </div>
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="images/green-buildings.jpg" alt="Green Buildings">
+                        <img src="/assets/images/green-buildings.jpg" alt="Green Buildings">
                     </div>
                     <div class="solution-text">
-                        <h3>Green Architecture</h3>
-                        <p>Eco-friendly buildings designed with sustainable materials and energy-efficient systems</p>
+                        <h3>Green Buildings</h3>
+                        <p>Sustainable architecture and eco-friendly construction.</p>
                     </div>
                 </div>
             </div>
